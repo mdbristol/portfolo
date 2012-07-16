@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=aWidth
+comment0.target=PlaneIcon(int)
+comment0.text=\r\n\ \ \ \ \ \ Constructs\ a\ plane\ of\ a\ given\ width.\r\n\ \ \ \ \ \ @param\ width\ the\ width\ of\ the\ plane\r\n
+comment1.params=x
+comment1.target=void\ setIconWidth(int)
+comment1.text=\r\n\ Sets\ the\ Iconwidth\r\n\ @param\ x\ is\ the\ users\ inputed\ width\r\n
+comment2.params=
+comment2.target=int\ getIconWidth()
+comment2.text=\r\n\ returns\ the\ width\r\n
+comment3.params=
+comment3.target=int\ getIconHeight()
+comment3.text=\r\n\ Returns\ the\ Height\r\n
+comment4.params=
+comment4.target=java.awt.Color\ getColor()
+comment4.text=\r\n\ Gets\ the\ currentColor\ \r\n\ @return\ color\ of\ the\ shape\ \r\n
+comment5.params=c
+comment5.target=void\ setColor(java.awt.Color)
+comment5.text=\r\n\ Sets\ the\ color\ of\ the\ shape\r\n\ @param\ c\ is\ the\ color\ the\ user\ has\ inputed\r\n
+comment6.params=c\ g\ x\ y
+comment6.target=void\ paintIcon(java.awt.Component,\ java.awt.Graphics,\ int,\ int)
+numComments=7

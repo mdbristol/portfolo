@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ color
+comment0.target=CarMoveableShape(int,\ int,\ int,\ java.awt.Color)
+comment0.text=\r\n\ \ \ \ \ \ Constructs\ a\ car\ item.\r\n\ \ \ \ \ \ @param\ x\ the\ left\ of\ the\ bounding\ rectangle\r\n\ \ \ \ \ \ @param\ y\ the\ top\ of\ the\ bounding\ rectangle\r\n\ \ \ \ \ \ @param\ width\ the\ width\ of\ the\ bounding\ rectangle\r\n
+comment1.params=dx\ dy
+comment1.target=void\ translate(int,\ int)
+comment1.text=\r\n\ will\ move\ the\ car\ down\ the\ page\ \r\n
+comment2.params=g2
+comment2.target=void\ draw(java.awt.Graphics2D)
+numComments=3

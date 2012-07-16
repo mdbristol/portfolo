@@ -1,0 +1,242 @@
+#   Initial FVWM Radford University Setup.
+#   June 1, 1995
+#   .fvwmrc
+#   Updated Jan 22, 1995 by Michelle D. Johnson (added colors)
+#   Updated Dec 19, 1997 by pac (added sloppyfocus)
+#
+#   Initial FVWM Radford
+#   Set up the virtual desktop and pager
+
+#set the desk top size in units of physical screen size
+DeskTopSize 1x1
+
+# and the reduction scale used for the panner/pager
+DeskTopScale 32
+
+# Use the Fvwm Pager
+# -1 -1 puts in the lower right corner
+# -1  1 puts in the upper left corner
+#  1  1 puts in the upper right corner
+#  1 -1 puts in the lower right corner
+Pager -1 -1
+
+#The pager is automatically sticky, but I like it to StayOnTop
+# comment this out and you can put windows on top of it.
+StaysOnTop Fvwm Pager
+
+#The pager is automatically sticky, but I like it without a title
+NoTitle Fvwm Pager
+
+SloppyFocus
+StdForeColor           Black
+StdBackColor           RoyalBlue
+HiForeColor            White
+HiBackColor            Red
+PagerBackColor BlanchedAlmond
+
+# Me, I'm from Upstate New York, and live in New Hampshire, so I prefer
+# these dark muddy colors...
+
+# this is used for non-selected windows, menus, and the panner
+#StdForeColor 		Black
+#StdBackColor 		#60a0c0
+
+# this is used for the selected window
+#HiForeColor 		Black
+#HiBackColor 		#c06077
+
+#PagerBackColor		#5c54c0
+#PagerForeColor		orchid
+
+############################################################################
+# Now the fonts - one for menus/icons, another for window titles
+############################################################################
+
+Font			-adobe-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
+WindowFont		-adobe-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*
+IconFont		-adobe-helvetica-medium-r-*-*-*-100-*-*-*-*-*-*
+
+# PagerFont is used to mark windows in the Pager with their icon names.
+# This is really only useful for DeskTopScale < 20 or so
+#PagerFont		5x8
+
+###########################################################################
+# Set up the major operating modes
+#
+# Set windows to auto-raise after 750 milliseconds if you like it.
+# Autoraise can sometimes obscure pop-up windows. Performance is now
+# similar to olvwm's auto-raise feature.
+#AutoRaise 750
+
+# Normally, we'll be in focus-follows mouse mode, but uncomment this 
+# for mwm-style click-to-focus
+#ClickToFocus
+
+# Auto Place Icons is a nice feature....
+# This creates two icon boxes, one on the left side, then one on the
+# bottom. Leaves room in the upper left for my clock and xbiff,
+# room on the bottom for the Pager.
+#IconBox -67 1 -1 100
+#IconBox -150 90 -5 -140
+#IconBox 5 -140 -140 -5
+#IconBox -20 1 -1 -50
+#IconBox 135 272 889 87
+
+# If you uncomment this, and make sure that the WindowList is bound to
+# something, it works pretty much like an icon manager.
+SuppressIcons
+
+# If you don't like the default 150 msec click delay for the complex functions
+# change this and uncomment it.
+#ClickTime 150
+
+#Might as well leave it out of the window list too...
+WindowListSkip Fvwm Pager
+
+CirculateSkip Fvwm Pager
+
+# flip by whole pages on the edge of the screen.
+EdgeScroll 100 100
+# A modest delay before flipping pages seems to be nice...
+# I thresh in a 50 pixel Move-resistance too, just so people
+# can try it out.
+EdgeResistance 950 50
+
+############################################################################
+# list the windows that don't want a title bar
+NoTitle xeyes
+
+###########################################################################
+# Here's where I could list NoBorder windows that don't get frames.
+# If a window shows up with NoTitle and NoBorder, it gets no decorations
+# at all.
+# When windows are NoBordered, they look a bit like twm is handling them
+#NoBorder xterm
+
+##########################################################################
+# now the windows that "Stick to the glass", ie don't scroll with the
+# desktop
+Sticky xclock
+Sticky xbiff
+
+############################################################################
+# now list windows that want to "stay on top," ie stay visible until
+# explicitly lowered
+# I got tired of this, except for the pager.
+#StaysOnTop xclock
+#StaysOnTop xdclock
+#StaysOnTop oclock
+#StaysOnTop Clock
+
+Style "Fvwm*"      NoTitle,            Sticky, WindowListSkip,BorderWidth 0
+Style "Fvwm Pager" StaysOnTop
+Style "FvwmPager"  StaysOnTop
+
+##############################################################################
+#now define the menus - defer bindings until later
+
+Popup "Operations"
+	Title	"Window Operations"
+	Refresh	"Refresh"
+	Destroy	"Destroy Window"
+	Restart	"Start TWM" twm
+	Restart	"Restart FVWM" fvwm
+	Nop	""
+	Quit	"Exit X Windows"
+EndPopup
+
+Popup "Programs"
+Title   "Utilities"
+Exec    "Xterm"         exec xterm &
+Nop     "-------"       
+Exec    "rulib"         exec xterm -geo 80x43+0-0 -cu -fn 10x20 -T rulib -e rlogin rulib &
+Exec    "Muselab"       exec xterm -geo 80x43+0-0 -cu -fn 10x20 -T Muselab -e rlogin Muselab &
+Nop     "-------"       
+EndPopup
+
+############################################################################
+# Now define some handy complex functions
+
+# This one moves and then raises the window if you drag the mouse,
+# only raises the window if you click,  or does a RaiseLower if you double 
+# click
+Function "Move-or-Raise"
+	Move 		"Motion"
+	Raise		"Motion"
+	Raise		"Click"
+	RaiseLower	"DoubleClick" 
+EndFunction
+
+# This function is used to  over-load the maximize button, so that
+# it maximizes vertically for a click, but does full maximization for
+# a double-click
+Function "maximize_func"
+	Maximize	"Motion" 0 100
+	Maximize	"Click" 0 100
+	Maximize	"DoubleClick" 100 100
+EndFunction
+
+# This one moves and then lowers the window if you drag the mouse,
+# only lowers the window if you click,  or does a RaiseLower if you double 
+# click
+Function "Move-or-Lower"
+	Move 		"Motion"
+	Lower		"Motion"
+	Lower		"Click"
+	RaiseLower	"DoubleClick"
+EndFunction
+
+# This one resizes and then raises the window if you drag the mouse,
+# only raises the window if you click,  or does a RaiseLower if you double 
+# click
+Function "Resize-or-Raise"
+	Resize 		"Motion"
+	Raise		"Motion"
+	Raise		"Click"
+	RaiseLower	"DoubleClick"
+EndFunction
+
+Key L1 A A CirculateUp 
+Key L2 A A CirculateDown 
+Key L10 A A IconifY
+
+Key F1 A A GotoPage 0 0
+Key F2 A A GotoPage 1 0
+Key F3 A A GotoPage 2 0
+Key F4 A A GotoPage 3 0
+
+##############################################################################
+# This defines the mouse bindings
+
+# First, for the mouse in the root window
+# Button 1 gives the WindowList
+# Button 2 gives the Programs menu
+# Button 3 gives the Window Operations menu
+# I use the AnyModifier option for the modifier field, so you can hold down
+# any shift-control-whatever combination you want!
+
+#     Button	Context Modifi 	Function
+Mouse 2		R   	A       WindowList
+Mouse 1		R    	A      	PopUp "Programs"
+Mouse 3		R    	A      	PopUp "Operations"
+
+
+
+# Now the title bar buttons
+# Any button in the left title-bar button gives the window ops menu
+# Any button in the right title-bar button Iconifies the window
+# Note the use of "Mouse 0" for AnyButton.
+
+#     Button	Context Modifi 	Function
+Mouse 0		1    	A      	Iconify
+Mouse 0		2    	A     	Resize
+
+# Now the rest of the frame
+Mouse 1		F	A	Resize
+Mouse 1		S	A	RaiseLower
+Mouse 1		T	A	RaiseLower
+Mouse 2		F	A	Resize
+Mouse 2		S	A	Move
+Mouse 2		T	A	Move
+
+

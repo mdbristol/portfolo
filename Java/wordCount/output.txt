@@ -1,0 +1,3 @@
+The file1 has: 29 words
+The file2 has: 11 words
+Total count of words: 40

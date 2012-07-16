@@ -1,0 +1,114 @@
+#!/bin/bash
+# chmodr.sh: recursively change the permissions of files and directories, respectively.
+# Copyright (c) Dane Mutters, 2006
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+#
+# You can email the author at 'dmutters@gmail.com'
+
+
+# Set some variables
+dirperms=$1
+fileperms=$2
+target=$3
+rootdir=`pwd`
+
+# Create a function for testing the exit status of a command.
+# If something goes wrong, call error function.
+exitstat ()
+{
+	if [ $? != 0 ]
+	then 
+		error
+	fi
+}
+
+# Create a function for what happens when something goes wrong.
+error ()
+{
+	echo "Something went wrong!  Are you sure you own ${dir[$dnum]}/${file[$num]}?"
+	echo "You might want to use 'chown username:group -R $rootdir/$target' (as root)."
+	echo "Exiting now."
+	exit 1
+}
+
+# Sanity checks and help message.
+if [ $# -ne 3 ] || [ $1 == "-h" -o $1 == "--help" ]
+then
+	echo -e "chmodr.sh: Recursively change the permissions of files and directories,"
+	echo -e "           respectively.\n"
+	echo -e "Usage: chmodr.sh directorypermissions filepermissions target\n"
+	echo -e "Note: The target MUST be a directory that's executable to you!\n"
+	echo -e "Also note: This script will not work if any of the directories"
+	echo -e "           or files in the path to be changed end in \":\".\n"
+	echo -e "Further note: The script will fail with unexpected results if"
+	echo -e "              you select non-executable directory permissions!\n"
+	echo -e "-h --help     Display this message.\n"
+	exit 0
+fi
+
+# Is the first argument a directory?  If so, change its permissions; else exit with error.
+if [ -d "$target" ]
+then
+	echo "chmod $dirperms $target"
+	chmod $dirperms $target
+	if [ $? != 0 ]
+	then
+		echo "Something went wrong!  Are you sure you own $rootdir/$target?"
+        	echo "You might want to use 'chown username:group -R $rootdir/$target' (as root)."
+        	echo "Exiting now."
+        	exit 1
+	fi		
+else
+	echo "The last argument must be a directory!"
+	echo "For single files, use chmod."
+	exit 1
+fi
+
+# Format the ls output and get a list of directories to cd into.
+# Set Internal Field Separator to '\n' (newline).
+IFS=$'\n'
+dnum=0
+for d in `ls -AR1 --color=none $target | grep \:$ | sed s/:$/''/ | grep -v '^[.]$\|^[..]$' | sed s/' '/'\\ '/g` ; do
+	dir[$dnum]="$d"
+	# cd into each directory in turn and change the permissions of everything in it.
+	if cd "${dir[$dnum]}"
+	then
+		num=0
+		for i in `ls -A1 --color=none | grep -v '^[.]$\|^[..]$' | sed s/' '/'\\ '/g` ; do
+	        	file[$num]="$i"
+			if [ -d "${file[$num]}" ]
+			then 
+				echo "chmod $dirperms -- ${dir[$dnum]}/${file[$num]}"
+				chmod $dirperms -- ${file[$num]}
+				exitstat
+	        	else
+				echo "chmod $fileperms -- ${dir[$dnum]}/${file[$num]}"
+				chmod $fileperms -- ${file[$num]}
+				exitstat
+			fi
+			num=$(($num + 1))
+		done
+		cd "$rootdir"
+	else
+		cd "$rootdir"
+		echo "Error! Could not cd into directory '${dir[$dnum]}'!"
+		echo "Make sure that you own the directory in question."
+		echo "See 'man chown' for details."
+		exit 1
+	fi
+	dnum=$(($dnum + 1))
+done
+exit 0

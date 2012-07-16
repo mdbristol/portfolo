@@ -1,0 +1,46 @@
+/** 
+*Michael Bristol
+*2/1/2009
+*
+*Passenger class
+*/
+import java.until.*;
+
+public class Passenger
+{
+
+private String  name = new String(30);
+private String address = new String(40);;
+private int  number = new int();
+Scanner scan = new Scanner(System.in);
+public Passenger(String nameP, String addressP, String phone)
+{
+name=nameP;
+address=addressP;
+number=phone;
+}
+
+public void setName()
+{
+System.out.println("Enter your name: ");
+name=scan.nextLine();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

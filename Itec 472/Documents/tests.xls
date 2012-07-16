@@ -1,0 +1,93 @@
+
+<HTML xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel">
+	<HEAD>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>
+			Export
+		</title>
+		<meta http-equiv="Expires" content="0">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta name="CODE_LANGUAGE" content="C#">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie3-2nav3-0">
+		<style>@page {mso-header-data: &LExport&R; mso-header-margin: .5in; mso-footer-margin: .5in; mso-page-orientation: landscape; margin: 1.0in .75in 1.0in .75in; }
+	TABLE { mso-displayed-decimal-separator: "."; mso-displayed-thousand-separator: "," }
+	TR { mso-height-source: auto }
+	COL { mso-width-source: auto }
+	BR { mso-data-placement: same-cell }
+	.cell { BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: 400; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-LEFT: medium none; COLOR: windowtext; BORDER-BOTTOM: medium none; FONT-STYLE: normal; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; TEXT-DECORATION: none; mso-number-format: General; mso-rotate: 0; mso-background-source: auto; mso-pattern: auto; mso-generic-font-family: auto; mso-font-charset: 0; mso-protection: locked visible; mso-style-name: Normal; mso-style-id: 0 }
+	TD { BORDER-RIGHT: medium none; PADDING-RIGHT: 1px; BORDER-TOP: medium none; PADDING-LEFT: 1px; FONT-WEIGHT: 400; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-LEFT: medium none; COLOR: windowtext; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; FONT-STYLE: normal; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; TEXT-DECORATION: none; mso-number-format: General; mso-rotate: 0; mso-background-source: auto; mso-pattern: auto; mso-generic-font-family: auto; mso-font-charset: 0; mso-protection: locked visible; mso-style-parent: cell; mso-ignore: padding }
+	H1 { FONT-SIZE: 14pt; FONT-FAMILY: sans-serif }
+	H2 { FONT-SIZE: 12pt; FONT-FAMILY: sans-serif }
+	.columnheader { BACKGROUND: #dfdfdf; mso-pattern: auto none }
+	.rowheader { BACKGROUND: #dfdfdf; mso-pattern: auto none }
+	/* Leave mso-number-format for data-plain as \@, so that string values that look like dates or numbers aren't mis-interpreted */
+	.data-plain { mso-number-format: \@; mso-style-parent: cell }
+	.data-longtext { mso-number-format: General; mso-style-parent: cell }
+	.data-currency { TEXT-ALIGN: right; mso-number-format: "#,##0"; mso-style-parent: cell }
+	.data-amount { TEXT-ALIGN: right; mso-number-format: "#,##0.00"; mso-style-parent: cell }
+	.data-percent { TEXT-ALIGN: right; mso-number-format: Percent; mso-style-parent: cell }
+	.data-date { TEXT-ALIGN: center; mso-number-format: "Short Date"; mso-style-parent: cell }
+	.context-header { TEXT-ALIGN: right; mso-style-parent: cell }
+	</style>
+		<!--[if gte mso 9]>
+	<xml>
+		<x:ExcelWorkbook>
+			<x:ExcelWorksheets>
+				<x:ExcelWorksheet>
+					<x:Name>Export</x:Name>
+					<x:WorksheetOptions>
+						<x:FreezePanes/>
+						<x:FrozenNoSplit/>
+						<x:SplitHorizontal>0</x:SplitHorizontal>
+						<x:TopRowBottomPane>0</x:TopRowBottomPane>
+						<x:SplitVertical>0</x:SplitVertical>
+						<x:LeftColumnRightPane>0</x:LeftColumnRightPane>
+					</x:WorksheetOptions>
+				</x:ExcelWorksheet>
+			</x:ExcelWorksheets>
+		</x:ExcelWorkbook>
+	</xml>
+	<![endif]-->
+	</HEAD>
+	<body>
+		<table>
+			<tr>
+				<td><table cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td class="columnheader">Title</td><td class="columnheader">ID</td><td class="columnheader">Owner</td><td class="columnheader">Status</td><td class="columnheader">Detail Estimate</td><td class="columnheader">To Do</td>
+		</tr><tr>
+			<td class="data-plain">Search Instances</td><td class="data-plain">AT-01002</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">Check Valid Login</td><td class="data-plain">AT-01003</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">check Instance Randomizier</td><td class="data-plain">AT-01004</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">Display Disclaimer</td><td class="data-plain">AT-01005</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">checkAcceptance</td><td class="data-plain">AT-01006</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">checkFoundInstances</td><td class="data-plain">AT-01007</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">checkSearching</td><td class="data-plain">AT-01008</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">checkAcceptance</td><td class="data-plain">AT-01009</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">checkDecline</td><td class="data-plain">AT-01010</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">checkClosedConnection</td><td class="data-plain">AT-01011</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">checkNoProcesses</td><td class="data-plain">AT-01012</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">checkValidInput</td><td class="data-plain">AT-01013</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr><tr>
+			<td class="data-plain">checkValidInputLogin</td><td class="data-plain">AT-01014</td><td class="data-plain"></td><td class="data-plain">Failed</td><td class="data-amount"></td><td class="data-amount"></td>
+		</tr>
+	</tbody>
+</table></td>
+			</tr>
+		</table>
+		
+	</body>
+</HTML>

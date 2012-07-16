@@ -1,0 +1,163 @@
+<?xml version = ?1.0? encoding = ?utf-8? ?>
+<!DOCTYPE html PUBLIC ?-//W3C//DTD XHTML 1.0 Strict//EN?
+     http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+
+<html>
+	<head><title> Michael's Burgers </title>
+		<style type = "text/css">
+		p.title {text-align: center}
+		#price {border-style: solid;
+					border-width: 15px;
+					border-color: red;
+					color: black;
+					font-size: 20pt;
+					font-family: helvetica;
+					padding: 5px;
+					margin: 100px;
+					text-align: center
+		
+				}
+		#toppings {border-style: solid;
+					border-width: 15px;
+					border-color: red;
+					color: black;
+					font-size: 20pt;
+					font-family: helvetica;
+					padding: 5x;
+					margin: 100px;
+					text-align: center
+		
+				}
+		#final{border-style: solid;
+					border-width: 15px;
+					border-color: red;
+					color: black;
+					font-size: 15pt;
+					font-family: helvetica;
+					padding: 5px;
+					margin: 100px;
+					text-align: center
+		
+				}
+		#final2{border-style: solid;
+					border-width: 15px;
+					border-color: black;
+					color: black;
+					font-size: 10pt;
+					font-family: helvetica;
+					padding: 5px;
+					margin: 100px;
+					text-align: left;
+		
+				}
+		
+		</style>
+		<script type = "text/javascript" src = "burger.js">
+		</script>
+	</head>
+	<body>
+		<h1><p class = "title">Welcome to Michael's Burger Joint</h1></p>
+		<div id = "price">
+            
+             
+                <p><b>Select the size burger you want:
+               	</b></p>
+			
+				<form id = "myForm" action = "">
+				<p>                         
+					<label><b> <input type = "radio" name = "sizeButton" 
+									value = "single" />
+									Single-$2.00
+									</b></label>
+					<label><b> <input type = "radio" name = "sizeButton" 
+									value = "double" />
+									Double-$3.00
+									</b></label>
+					<label><b> <input type = "radio" name = "sizeButton" 
+									value = "triple" />
+									Triple-$4.00
+									</b></label>
+				</p>
+				</form>
+				
+        </div>
+		
+		
+		<div id = "toppings">
+            
+             
+                <p><b>Select your toppings:
+               	</b></p>
+			
+				<form id = "myForm2" action = "">
+				<p>                         
+					<label><b> <input type = "checkbox" name = "topButton" 
+									value = "cheese" />
+									Cheese-($0.50)
+									</b></label>
+					<label><b> <input type = "checkbox" name = "topButton" 
+									value = "onions" />
+									Onions-($0.25)
+									</b></label>
+					<label><b> <input type = "checkbox" name = "topButton" 
+									value = "lettuce" />
+									Lettuce-(FREE)
+									</b></label>
+					<br />
+					<label><b> <input type = "checkbox" name = "topButton" 
+									value = "tomatoes" />
+									Tomatoes-($0.30)
+									</b></label>
+					<label><b> <input type = "checkbox" name = "topButton" 
+									value = "mustard" />
+									Mustard-(FREE)
+									</b></label>
+					<label><b> <input type = "checkbox" name = "topButton" 
+									value = "only" />
+									Cheese Only-($0.40)
+									</b></label>
+				</p>
+				</form>
+				
+        </div>
+		
+				<div id = "final">
+            
+             
+                <p><b>To obtain your final price please click the submit button or click the clear button to start over
+               	</b></p>
+			
+				<form id = "myForm3" action = "">
+				<p>                         
+					<label><b> <input type = "button"  value = "Total Cost(submit)" 
+										onclick = "computeCost();"/>
+					
+									
+									</b></label>
+					<label><b> <input type = "reset" value = "Clear Form" </b></label>
+								
+								<div id = "final2">
+								
+									<p>
+									Burger type: 
+									<br />
+									Toppings:
+									<br />
+									Total Cost:
+									
+									
+								
+								
+									</p>
+								</div>
+				</p>
+				</form>
+				
+        </div>
+		<!--<script type = "text/javascript" src = "burger2.js">
+		</script>-->
+		
+	</body>
+	
+			</html>
+										

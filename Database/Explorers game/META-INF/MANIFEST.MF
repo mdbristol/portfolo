@@ -1,0 +1,2199 @@
+Manifest-Version: 1.0
+Specification-Title: "Oracle JDBC driver classes for use with JDK1.4"
+Specification-Version: "Oracle JDBC Driver version - 9.0.2.0.0"
+Specification-Vendor: "Oracle Corporation" .
+Implementation-Title: "ojdbc14.jar"
+Implementation-Version: "Oracle JDBC Driver version - 9.0.2.0.0"
+Implementation-Vendor: "Oracle Corporation"
+Implementation-Time: "Thu Apr 25 23:14:02 2002"
+
+Name: oracle/sql/ARRAY.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: dmaLI4JYUr93CzKOLgN6E21Vi5M=
+MD5-Digest: c0XbokBF/OW0//pY4JCVnw==
+
+Name: oracle/sql/DatumWithConnection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: LTPZ8X/+DDNWesdKYiAowk0wnH0=
+MD5-Digest: IYBoyZ3JK0Xo4oseRqwLcg==
+
+Name: oracle/sql/ArrayDescriptor.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: u9tszi0PPXsuj1WeMUwsAP2cDxM=
+MD5-Digest: 3jLTHQ6ikYXhjUbGUOdcfg==
+
+Name: oracle/sql/TypeDescriptor.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: H4vZ6P3fstokDnYd2r22XcTBTms=
+MD5-Digest: 8L1ip338DazRi0eXmkJjhQ==
+
+Name: oracle/sql/SQLName.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: k87KR5IrEgJxw5zijb76Ylbg6P8=
+MD5-Digest: 2cH/AlBVz2WO48nMaYbCXg==
+
+Name: oracle/sql/LobDBAccessImpl.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nMQB1w7ABpBZdpnDKTkHfxAJ5Zg=
+MD5-Digest: oJbv0nJlXg4L6hDd4cebqA==
+
+Name: oracle/sql/BlobDBAccess.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lCeo6aCNZW09+6wVqchJfDn7WDE=
+MD5-Digest: eCidkvOMRjKVZugusWoKZQ==
+
+Name: oracle/sql/ClobDBAccess.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WhTW78FBUhUlNCbiwDJ8oJGHcL4=
+MD5-Digest: eGAflcBZj4aThvstYOh3oQ==
+
+Name: oracle/sql/BfileDBAccess.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: U5TpkBUxii9BuJsftF5B40c95vU=
+MD5-Digest: n0Olri3rt0+auzn7kzDU9Q==
+
+Name: oracle/sql/StructDescriptor.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DZLVHTNLxpM/SrnbmvYU7ZnCjQ8=
+MD5-Digest: U3jD6zUYeY8aRenr7QuUgQ==
+
+Name: oracle/sql/STRUCT.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: KjRJuf26U56eCC0VFaq4sgQdQvQ=
+MD5-Digest: ESh7ekDFr+wHxgYuVXYubQ==
+
+Name: oracle/sql/BLOB.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YdCoSwsZJODsKxo8/Im33SiW0eg=
+MD5-Digest: DG0ZZCIRtwfrRDZ3i6Pslg==
+
+Name: oracle/sql/CLOB.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 87s7h92BkVrxEzg9A7V3VaF3lMM=
+MD5-Digest: zWYfzq4FcBziYd37UWdcmw==
+
+Name: oracle/sql/BFILE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JBjeYLW56wopswruVu5jC21Ttzw=
+MD5-Digest: ZM/xTRYYhYfb8kRNeG9+bg==
+
+Name: oracle/sql/ROWID.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YKpkYZFRLJvpymBFWdcCtEsYc2E=
+MD5-Digest: xCQOZ/Ue3O0BVywsO34rUg==
+
+Name: oracle/sql/RAW.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WnR4XVYEtn9QQ97pdq7yhOXMU+o=
+MD5-Digest: MySTAn1t8VoIO3gJZjGnGQ==
+
+Name: oracle/sql/CHAR.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WI+n2pYte7/SF06GsJdAdPWyFtA=
+MD5-Digest: I6xMrtTaJ6tS6wkiyiygvA==
+
+Name: oracle/sql/REF.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: gcth6Fur3799Dadn8hk+TGA0kTo=
+MD5-Digest: 1AoaOGuVIgK3MFfsy43GGA==
+
+Name: oracle/sql/OPAQUE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tn5BWea4Q1cizI5MtD80CDHCx8s=
+MD5-Digest: J7NRoctd8WUR+seJFpLT2w==
+
+Name: oracle/sql/CustomDatumFactory.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YP1uKDUai1IdrMBOG2bv16xPGX0=
+MD5-Digest: IleX9p1VBIJYP/r8ahEceg==
+
+Name: oracle/sql/CustomDatum.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: UYkpvvDlSBoRqPuttVbplZ2bfKE=
+MD5-Digest: B1tL8qfjke7u1m0zdI3c+w==
+
+Name: oracle/sql/ORADataFactory.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: pGGV+XvqLAKqEv52So7dZ6exmZQ=
+MD5-Digest: 6nvu3d+jXwrhbYBJhpwiAw==
+
+Name: oracle/sql/ORAData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: QOsLKd6H70Pfz1ozJB+Xc/ncLGw=
+MD5-Digest: VKfEdDUBSW0N2mn1jeD3kw==
+
+Name: oracle/sql/OpaqueDescriptor.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: kXFKCF1da8FvvT9WtRWX5gPpR14=
+MD5-Digest: 357qM41FN4ZpomFVxZaBjA==
+
+Name: oracle/sql/JAVA_STRUCT.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: +ZokJm+D3cMM/zIp4N1jbdloTD8=
+MD5-Digest: B9GYS82UdAjL/aw6147RRA==
+
+Name: oracle/sql/LobPlsqlUtil.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jdejUNC9LafH3bIVuhHy2yGvQ0c=
+MD5-Digest: PfLIMW753A/amrCLichPOw==
+
+Name: oracle/sql/OracleJdbc2SQLInput.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8F7zpeez+ncywdnvqLNlrtt+lL8=
+MD5-Digest: WpuUMEPy2IGSW8s2uf/+XQ==
+
+Name: oracle/sql/OracleSQLOutput.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: rlbc0CqZq+ZfYNamR0r4jLS3UrQ=
+MD5-Digest: vucgxszioH3+LKqSstiCFw==
+
+Name: oracle/sql/SQLUtil.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: blujZm0sOm+Jo6gdT4OiC3YQtSE=
+MD5-Digest: lVp9oWJUEpeW+40MjK+WQw==
+
+Name: oracle/sql/Mutable.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: I5inGoeXFe4PI4Y+VxOd+FpB6TM=
+MD5-Digest: ARLS8eCwvIbU79I0TYSENw==
+
+Name: oracle/sql/DATE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: BmR6VVV+jo5xC9s9HeyLKqZaFxE=
+MD5-Digest: jLFfN2EaDG6vDofwRwnClA==
+
+Name: oracle/sql/Datum.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fLK894qTCMEsmPxZfkdT5h9QbQ8=
+MD5-Digest: KlyY5/IYpbiF1Nj6p5yV4Q==
+
+Name: oracle/sql/INTERVALYM.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: HRejRz4Bg7tl8lUTVYc0e8Xa9MA=
+MD5-Digest: pVh3Vpjf+2FmJl+nR2ZfvQ==
+
+Name: oracle/sql/LdxLib.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: V1WsJh65/NyK/X/9F8Po2VXayRY=
+MD5-Digest: lcre3ar7E9GtPmPMtZ+Aew==
+
+Name: oracle/sql/LdxLibServer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: u7CMGGuGcSdxFydurPULd8yyCdw=
+MD5-Digest: QgITiGHPBVLPzsOzbAY9JA==
+
+Name: oracle/sql/LdxLibThin.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qqaOmLsJ/tBgB1aqEJMbnMEO26k=
+MD5-Digest: PWIm08r24Ztm66Anpsw7tw==
+
+Name: oracle/sql/LnxLib.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: CqDxmXoq4gsE18BRzRVWh4LETTA=
+MD5-Digest: RoKoDx5IO4yK3wJzthp5TA==
+
+Name: oracle/sql/LnxLibServer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: E6KD4v4XPv1UO91d61SimuH7j2k=
+MD5-Digest: lhSPa0mika9yWGyGAtQ4cQ==
+
+Name: oracle/sql/LnxLibThin$lnxqc.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: kidzMmd4QNnZ8ATm3/vzVKv/dvA=
+MD5-Digest: 1/MQeJPu1kJz+Mi9eRsCYA==
+
+Name: oracle/sql/LnxLibThin.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qZ8JiUYqODUHkGVx07uCmZSYTVk=
+MD5-Digest: uSoZVN7tw1Nhynzs7f8wlg==
+
+Name: oracle/sql/LnxLibThinFormat.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: pcpbQGm1g3AnRr6RPxQJLAM7IXk=
+MD5-Digest: ik9vH2MjY8wnc7ibQwVbig==
+
+Name: oracle/sql/LoadCorejava.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: HIBxiVR1VtP4hutHoni6EFf9ANo=
+MD5-Digest: P4leeiZ3muq76m+apKT05Q==
+
+Name: oracle/sql/NUMBER.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ACLbxB2dcQ9DeIP5i8FqTbXoJC0=
+MD5-Digest: sGBRHkRgocK7T6nEJ3cjFA==
+
+Name: oracle/sql/OffsetDST.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MVp0aUKK3IbZ7infn4TsbDiWwZ8=
+MD5-Digest: LA2MLQC3EV4RW2UqjSBZdQ==
+
+Name: oracle/sql/TIMESTAMP.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Z8CBMiqzuCuexsLgDajZPLKnC6w=
+MD5-Digest: Yyl/K5ZBf6Hoy0djLe/wrg==
+
+Name: oracle/sql/TIMESTAMPLTZ.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mUKvAZ5LQ4aH3Kh4ors+/FECx00=
+MD5-Digest: gy+Mojrf4ljjOLZ1IDV8Nw==
+
+Name: oracle/sql/TIMESTAMPTZ.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: vuD2FkJsbuAlxaInKwX1Z7ohA6M=
+MD5-Digest: H6eih0gyd+JtBwOBNWJdcg==
+
+Name: oracle/sql/TIMEZONETAB.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xedgHU5FnHV0Jn7c5JlZIjYfu8s=
+MD5-Digest: 7Mx5oUE7lh21FOojQe5W6A==
+
+Name: oracle/sql/TRANSDUMP.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: F7hSpgN0hnAh5Y37Sla/b9wk2fg=
+MD5-Digest: V2RdJTahcD9OpvfgdM8z4w==
+
+Name: oracle/sql/TableClass.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: bSljZt8ygEaM0y/xsCGQLsaMpwg=
+MD5-Digest: /9mVnFgK9MouJXmRPuH26A==
+
+Name: oracle/sql/ZONEIDMAP.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Xv3eMJYjqyUcUjaazd8QgXUDi8c=
+MD5-Digest: lyjtjxXvqd/ib+cF4ajudQ==
+
+Name: oracle/sql/CharacterBuffer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: bDyggPTeaIIAvdn9ZeE+QF4INtA=
+MD5-Digest: i8yWpwx8F2+2t0lk0QAdWw==
+
+Name: oracle/sql/converter/CharacterConverter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ZOPUomREpwnpcDXHnT5mayumIWg=
+MD5-Digest: oQ2tnvtAlt6ZBbxATu0iAw==
+
+Name: oracle/sql/converter/CharacterConverter12Byte.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: uafWI+z8Mo0VGD/4HRKiA92z1UQ=
+MD5-Digest: hw5MByOetgFvrYAcIGJ+/w==
+
+Name: oracle/sql/converter/CharacterConverter1Byte.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: swB/pfZ2l9Afdbb6b34tPv1Qxq4=
+MD5-Digest: ziNzzD85HXqobkHbBbMgoQ==
+
+Name: oracle/sql/converter/CharacterConverter2ByteFixed.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: KmL0ZynWywM0cOB9c0qXW4Cbevk=
+MD5-Digest: +6TS5W6ZaBtI18U3a5uOSA==
+
+Name: oracle/sql/converter/CharacterConverterGB18030.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: zD25mvmaiAiiP8gGOysCiujhJy0=
+MD5-Digest: ldmrXEbp2W7YNjuG6dVURw==
+
+Name: oracle/sql/converter/CharacterConverterGroup.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: EzLOxY5U8H6Qihx6h6RA3k+i4R0=
+MD5-Digest: WAqx8mq5qRv5QXXCTSk++g==
+
+Name: oracle/sql/converter/CharacterConverterJAEUC.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: W3wiUSq2bia/erC6uPJmWSpOXpI=
+MD5-Digest: Oen4i22sJTb/YiuPq1O2Qg==
+
+Name: oracle/sql/converter/CharacterConverterLC.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: U+Q4s3oOYLrbNTe82ly357E2QX8=
+MD5-Digest: MqQSllgTkGh+/wG+9WY9RQ==
+
+Name: oracle/sql/converter/CharacterConverterLCFixed.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: sx0qSwu0GrDEQW+gHp7g90b8xFY=
+MD5-Digest: PZtrt/8GEHVOhHd5IChOzA==
+
+Name: oracle/sql/converter/CharacterConverterSJIS.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yM8fTP69yUownQjQlzLG9W36saY=
+MD5-Digest: n+qmst7aSqLkIwk5Jfa5Hw==
+
+Name: oracle/sql/converter/CharacterConverterShift.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: sGTaFp3SbfSMT8UiWkwHn5wL4ww=
+MD5-Digest: 7tmLvyL+R4V5+CaMpuRhPA==
+
+Name: oracle/sql/converter/CharacterConverterZHTEUC.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Y+3bV7epIGi0ScCwDE/dRn/lPi8=
+MD5-Digest: bc9k3dtSdMzm6zZYkNN9MA==
+
+Name: oracle/sql/CharacterRepConstants.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lWMTpI+SzYpz/Y8O+b+LLymca7w=
+MD5-Digest: i1cnc7lSBo/GtEd11UujWQ==
+
+Name: oracle/sql/CharacterSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DmlhMQXFjVJtfUGhJqO4ZhEm70c=
+MD5-Digest: 0a/y5sG7jV3ybIbPnBbm7w==
+
+Name: oracle/sql/CharacterSet12Byte.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8j2MDk10lMX9BKHwAQyZQ5egkaY=
+MD5-Digest: 1SVdT+BQAYQQF6GsPWE5ww==
+
+Name: oracle/sql/CharacterSet1Byte.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5UjyOx6B1QhuPMX1qxohFXMnrbI=
+MD5-Digest: 1nFNKF7GIyU9Z0fV+VMzlQ==
+
+Name: oracle/sql/CharacterSet2ByteFixed.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: kaYdbzyyB17Nb137sndmlk+K6jw=
+MD5-Digest: 5H68ulQQGeYRfhGK7pdZbw==
+
+Name: oracle/sql/CharacterSetAL16UTF16.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wK13JeML28ElJddybKIIdnDkM0A=
+MD5-Digest: 2aBcF1y3SyNGIPU8MX/HlA==
+
+Name: oracle/sql/CharacterSetAL16UTF16LE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Diz5QLXjf6CcpXtPUJIbK5FX9WQ=
+MD5-Digest: 2qhFKv1zlTtcMs0V/G8SLg==
+
+Name: oracle/sql/CharacterSetAL32UTF8.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mLN1mrMg5065CDbYmd1mc4CRYek=
+MD5-Digest: n66jBlOap0uu30Prg/ukfQ==
+
+Name: oracle/sql/CharacterSetFactory.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Qlwjz43Q4gHryS522JV9hZW0UlU=
+MD5-Digest: S913Wsz9heUq3VsK9oYr6g==
+
+Name: oracle/sql/CharacterSetFactoryDefault.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4La8H+hk58/YoyPRAFDOiRq/ZVI=
+MD5-Digest: /Olol7UWOuf8SjgOb6LwBA==
+
+Name: oracle/sql/CharacterSetFactoryThin.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: rYoGGThtO/TaXAmLEywji+TL49U=
+MD5-Digest: +ooX8tlnw/83rDyzibZMUw==
+
+Name: oracle/sql/CharacterSetByte.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 1qdr8DEyw82Cf4vNXZjZKE5ZuH0=
+MD5-Digest: pvNROxQklg3iu0EcwMoe+Q==
+
+Name: oracle/sql/CharacterSetUnknown.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: g1tIpWM0g0cWJ4fkuBObrT02e/0=
+MD5-Digest: R/IUrofcoLhjAZU9+h7iEQ==
+
+Name: oracle/sql/CharacterSetGB18030.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JV+nhbN0CQIC4c/qRxeZeOZ5WXE=
+MD5-Digest: FJgyxBwW8QIxsPiymZt6+A==
+
+Name: oracle/sql/CharacterSetJAEUC.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: TYoK69edpanLC3AIFbKmppgglks=
+MD5-Digest: zlS0Lq36kiYcyYrtKCLuUw==
+
+Name: oracle/sql/CharacterSetLCFixed.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lPtJJi8fHZKNElnV0RmcT3yeNDg=
+MD5-Digest: /8iJPYgthyb6H0fyAav3YQ==
+
+Name: oracle/sql/CharacterSetSJIS.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tX86UTKxDPkQ33ZU+MoDEPZ/hPY=
+MD5-Digest: LwTLAU1st3wl/GAxKENe5w==
+
+Name: oracle/sql/CharacterSetShift.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: L3MvGw8xif7OWTYYQvcVCViKVvg=
+MD5-Digest: 4eHmVGzZEEDES2wX9Nk9yQ==
+
+Name: oracle/sql/CharacterSetUTF.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: KWMIVG11tbjuJRivEz6WnV4d+YU=
+MD5-Digest: 9ynBExsrCQ2cR/P1emuHpw==
+
+Name: oracle/sql/CharacterSetUTFE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qo0GCbrWnG9OGrvwbW699SQSywQ=
+MD5-Digest: VXaooXe99G/AqXIh4fBVZA==
+
+Name: oracle/sql/CharacterSetWithConverter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: UkA8dsD/rCBPhIkIkR2Epu95M34=
+MD5-Digest: dTgk0gVSzPmZuOgbbjacHQ==
+
+Name: oracle/sql/CharacterSetZHTEUC.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 3a10jnHE9tWoGNk2MtDuDbpgjhE=
+MD5-Digest: FjJvJB1nrAfb/7vzyyn/6Q==
+
+Name: oracle/sql/CharacterWalker.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4nBXhhqJQjUtM2tjl+b9/rcU/h0=
+MD5-Digest: YD/3ozwM/3tq6qLGazqBFw==
+
+Name: oracle/sql/ConverterArchive.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ERj2nqUCjNV0mYnz2JTpXmmfUvM=
+MD5-Digest: vQrqx/UkQNqdxVyKjcDHog==
+
+Name: oracle/sql/converter_xcharset/CharacterConverter0001.glb
+Digest-Algorithms: SHA MD5 
+SHA-Digest: kFLuLis32bAHzkjW0d2MVxn3k4c=
+MD5-Digest: 3DfN9ipognA5JGMX9E2apg==
+
+Name: oracle/sql/converter_xcharset/CharacterConverter0002.glb
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jCXbK+9R4wwve5aSnJ1q5pKOlyU=
+MD5-Digest: Y3J8irmFbS4CUoaAsHRkjg==
+
+Name: oracle/sql/converter_xcharset/CharacterConverter001f.glb
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Ex7Zbc3wANbl+JeVjaYXE01LMTE=
+MD5-Digest: heGmQ94DltToro31bhXdyA==
+
+Name: oracle/jdbc/driver/OracleConnection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: dIFZNLqSnEox48XWJauHETUii0o=
+MD5-Digest: myC2JK8f3B31IKHvK3MZoQ==
+
+Name: oracle/jdbc/driver/ClientDataSupport.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: dG0e6A68x0c8iHpwHwWwKm9XaIw=
+MD5-Digest: V9/l/AIVtBt+mRGvoJ6TGg==
+
+Name: oracle/jdbc/driver/OracleStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: pmfdytTNs+3okE1B7F6FZFaW8OI=
+MD5-Digest: Iye6DfThk1KPqE1Fgb7wCQ==
+
+Name: oracle/jdbc/driver/ScrollRsetStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: acwZHgCk+IqgzUDXIf2BgI053dA=
+MD5-Digest: aaJm6mZaxM0J39EHQBZl8w==
+
+Name: oracle/jdbc/driver/OracleSql.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 03C21c0tcrp2o3G1c7pSRAicVBg=
+MD5-Digest: 9WWP98Ka/D7VOX47pFHh4A==
+
+Name: oracle/jdbc/driver/LRUStatementCache.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jzV1cNJlPfd1wEqKSVaeU1dVDDE=
+MD5-Digest: p4pQsBhlYeGiDlymycxHBQ==
+
+Name: oracle/jdbc/driver/OracleCloseCallback.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Kl94tVClCPaXQu05eTpJRgekUmQ=
+MD5-Digest: JGA24F3oVuXuEb6qsmisww==
+
+Name: oracle/jdbc/driver/OraclePreparedStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: PPogw9+dVoU+ntyrjVGR6KtCG4A=
+MD5-Digest: MbKbYkQNFn0S9HL1o0naPQ==
+
+Name: oracle/jdbc/driver/OracleInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: P8qfiRDWEbCHK2Z12LvS8PsK4kw=
+MD5-Digest: mIn8vE4AugQBuOE7i8KerQ==
+
+Name: oracle/jdbc/driver/OracleBufferedStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mUHdlpiYPv2MJ5CJf5QlQxYaoNA=
+MD5-Digest: z922IVW37aN2jS40yPUGEg==
+
+Name: oracle/jdbc/driver/OracleResultSetImpl.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YyI5kKZWzgwoi6koqNXBvhUJxL0=
+MD5-Digest: 8HwvhknA0jz3y9bhL2QPfQ==
+
+Name: oracle/jdbc/driver/BaseResultSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 1xDfVVRt0+a7rUglF/+y2fvxdsc=
+MD5-Digest: WlkmA69i6gmllos+kr92mg==
+
+Name: oracle/jdbc/driver/OracleResultSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ZJZUU9mgTG3xkVRP1jioI3DIbEQ=
+MD5-Digest: 7gDWzL4qBUBMKk0MDe/e5A==
+
+Name: oracle/jdbc/driver/OracleResultSetCache.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fojBILGEiZ10rqbAFR5fkf2KcME=
+MD5-Digest: R/5JZhRQKEgmJeDFtiEc3A==
+
+Name: oracle/jdbc/driver/OracleStatementCacheEntry.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IrBBGVnZJwkwlqzPcZ7p5n1Shew=
+MD5-Digest: 8LzsLuT8h7UM+gv42mqmgA==
+
+Name: oracle/jdbc/driver/OracleDriver.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: +kQoXYXD1XNlH27KWY4yXDYH4Gw=
+MD5-Digest: hCkWSivVIzkNRLcrxyCj0Q==
+
+Name: oracle/jdbc/driver/OracleLog.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tajkgOPHY9j0mHwjr4M5RnRjy3c=
+MD5-Digest: A6TALU7aUdhksgmzeFyqXA==
+
+Name: oracle/jdbc/driver/ArrayDataResultSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: NZEdqj11shdD1LFzUFsIY5NfJac=
+MD5-Digest: JXYHfPAN4mT481NLKGgEYw==
+
+Name: oracle/jdbc/driver/ArrayLocatorResultSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: uZqkt5oxVIMe5vsTzgz5w/HekKo=
+MD5-Digest: nfZOiFX2kUanEavcdhFjTA==
+
+Name: oracle/jdbc/driver/ResultSetUtil.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: D0GhA8mwiAJJ+lEIslpg/me+YFU=
+MD5-Digest: B717RTfmVsU3LzvVieJb5w==
+
+Name: oracle/jdbc/driver/Const.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: svpqAvt4G3MPz5Ss/vAGB1lB6s0=
+MD5-Digest: oAzlR+q1yUq4X2LQG46vVg==
+
+Name: oracle/jdbc/driver/OracleCallableStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: eKKSrgWx5UuR6GT0FDJkcuf+PcA=
+MD5-Digest: onov/ArBWsL4ydM6hXRbtg==
+
+Name: oracle/jdbc/driver/OracleDatabaseMetaData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: byfdq5x6IQ6sxS8/ONJpmNHdtYU=
+MD5-Digest: tGP9cLyKdb1Gd5wSu8q4yg==
+
+Name: oracle/jdbc/driver/ByteArrayKey.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8L+COpDqKFSLReTARIVxl/xqFBU=
+MD5-Digest: LVGdgWfJxVqVlN+tC5qMDg==
+
+Name: oracle/jdbc/driver/OracleSavepoint.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: USqSsv83jJ1GBjfxOE8JRr3V0mE=
+MD5-Digest: J53LgOHcfX+px82s8QHcVw==
+
+Name: oracle/jdbc/driver/OracleTypes.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5kzo5r3LN6fxDN4hPwOo7RxwnT8=
+MD5-Digest: QTvTF3LCbXJjpYdXEl83Hw==
+
+Name: oracle/jdbc/driver/OracleConversionInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nORSP1KS5YYZEwgW6tIA1qQPYAg=
+MD5-Digest: K9eW1yE20S5QkaEW7C1PrQ==
+
+Name: oracle/jdbc/driver/OracleConversionReader.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: XJDY8UaHxeQRNDMmyjc7ymu9MKo=
+MD5-Digest: fq/Jdjzc8gNKxfF92KQYAw==
+
+Name: oracle/jdbc/driver/OracleBlobInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: eipm9JdLSm+hwGNN0VNaPbGZVzE=
+MD5-Digest: qPk4yTBM0U8Kocnajk4oNA==
+
+Name: oracle/jdbc/driver/OracleBlobOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lujwo3I4TTcqf94v0vEPbOhLWyc=
+MD5-Digest: 2an1PB3kY7llAF088cdaNg==
+
+Name: oracle/jdbc/driver/OracleClobInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: kNqd05r0nLz5uLVufy9WpMGfdrI=
+MD5-Digest: Khuh8UrXou4Wve3KMNvahw==
+
+Name: oracle/jdbc/driver/OracleClobOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: REucv5a/8ojNBWhi8+yoBHdrrIQ=
+MD5-Digest: JxIq60qsh21H1ZkJMuA8yw==
+
+Name: oracle/jdbc/driver/OracleClobReader.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: aAl5vT9MYFDaX9pPqVIMe0UHF8A=
+MD5-Digest: qt9heRHrTIaslM2Wl5hDkg==
+
+Name: oracle/jdbc/driver/OracleClobWriter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: aUU6BIDtY2LkYacWG3AvykhVuL0=
+MD5-Digest: ut6yFV/54d8H74hNys3kSQ==
+
+Name: oracle/jdbc/driver/OracleCancelThread.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: gAooUGhvwyYIVeOxWGc/FyBG0rQ=
+MD5-Digest: hKCSZ5HXuiD4m1dMbMQjew==
+
+Name: oracle/jdbc/driver/StructMetaData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: VmbSBG2srXxMP6BjeHF2v2jx9S0=
+MD5-Digest: 4EQVNLh4cFmBlWnTAWFM3g==
+
+Name: oracle/jdbc/driver/OracleResultSetMetaData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JzMprpg0OGhON3P07jXhxKxesQg=
+MD5-Digest: i3F9hrAOc0CtAQS+DTwtSA==
+
+Name: oracle/jdbc/driver/UpdatableResultSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: GqLJk2mJ46rqZMjZK/L+/cN9w2o=
+MD5-Digest: O55O4ARRq74SJ8Q8ZgRfvg==
+
+Name: oracle/jdbc/driver/ScrollableResultSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9gVz/kjtSgVWvKliOZooq6kGl70=
+MD5-Digest: DpjmZ/YJQbrAr8iZu7Bh5A==
+
+Name: oracle/jdbc/driver/SensitiveScrollableResultSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: FFURhgebCXARxLfJmEKoMnvscl8=
+MD5-Digest: 0RxND0b4TqIUrz0jgR80ZA==
+
+Name: oracle/jdbc/driver/OracleResultSetCacheImpl.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: taz9F6cF8/qzFJY5PpQJ+JL2uM4=
+MD5-Digest: +lXUEvGW30lG0X951rrNmw==
+
+Name: oracle/jdbc/driver/DMSFactory.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xrS8MNRworrtS1kuymGcCFBHTnI=
+MD5-Digest: /HXsOtM0/8t/fYUy+6giig==
+
+Name: oracle/jdbc/driver/OracleParameterMetaData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: j8KqZzcgFViRKUBgLIqZ7+p8umU=
+MD5-Digest: 0lXHr1SD3VE//1ccrosj2g==
+
+Name: oracle/jdbc/driver/OracleSQLException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: NJvdCmsMPhKoSdK8SXlTdIXq2Bg=
+MD5-Digest: lR0q+xCw+7Gj/AkEjlTpZg==
+
+Name: oracle/jdbc/internal/OracleConnection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nzM8pqTb3wqKRR4EXuq8QQ6s0Gc=
+MD5-Digest: 3GtR7aBXXoADDf+JFP5rPg==
+
+Name: oracle/jdbc/internal/OracleStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MrSHUj6l1PHlKD89mP5YSQeMKp0=
+MD5-Digest: engwGLJrcbDH1TDo7+BxQg==
+
+Name: oracle/jdbc/internal/OraclePreparedStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: hMvpahCcudSvOHDou9ypx0Py0oY=
+MD5-Digest: k0O5XU+xdhVt876wgk9hEg==
+
+Name: oracle/jdbc/internal/OracleResultSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: q/NNyroJbTXFv8Krqs0c3tX14SQ=
+MD5-Digest: 9/px3W9+t9H4UL+MN+DjCA==
+
+Name: oracle/jdbc/internal/ObjectDataFactory.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: imqorRov66+HXSvJqdibkiTmiwA=
+MD5-Digest: 4BPTJOOTT9f1owCsVa4Zug==
+
+Name: oracle/jdbc/internal/ObjectData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0vwNtrJ382/vYmzRl+nFHHS2lpY=
+MD5-Digest: WyOZcon25tJtSkZMNZC6YA==
+
+Name: oracle/jdbc/internal/OracleResultSetCache.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8ssfDRCANVVRIMlfzHIaozU3F5E=
+MD5-Digest: qybM8S4dAayydSea3yA1hw==
+
+Name: oracle/jdbc/internal/OracleCallableStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YHCN2HWUj9QfWAuKjW+3ZI+Sc2M=
+MD5-Digest: 1Nxhg9x+cSNuk0wJ053/iw==
+
+Name: oracle/jdbc/internal/OracleTypes.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: n8hhGDytltaEHr5VKLjD3sdqQSs=
+MD5-Digest: t91ajrGR4yBqCVfRMpSayQ==
+
+Name: oracle/jdbc/internal/StructMetaData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: +GqkqPej3cvotKNYGPr6VFDmi6w=
+MD5-Digest: HSAfY43tonC4cwgUKKDEAg==
+
+Name: oracle/jdbc/internal/OracleResultSetMetaData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nACMIvQM4B6Gy0WG0yv+2/rD/Vk=
+MD5-Digest: H/bK1zqTltPdNeN3m58cPA==
+
+Name: oracle/jdbc/OracleConnection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: dktyU9g1vpb99rfnUF9ksFV5wB0=
+MD5-Digest: WdhMDLZjOfVuoi9KvBKgbA==
+
+Name: oracle/jdbc/oracore/OracleTypeCOLLECTION.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lQ0CSJ6y/iDUHBR2KIWw2DUb55k=
+MD5-Digest: EDGNz1nj0Urn97KcrEdlOg==
+
+Name: oracle/jdbc/oracore/OracleTypeADT.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fb7d+gD/PiHRTszmsyvlzPZRU1I=
+MD5-Digest: V7bbUTyrDtKq+QZrZNMT/A==
+
+Name: oracle/jdbc/oracore/OracleNamedType.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: hW5wO+anoJTb6cqMZYW5jpFhuLw=
+MD5-Digest: yjBjsEuj9e5NfDnPaq4rcQ==
+
+Name: oracle/jdbc/oracore/OracleType.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Kv24/UAMqoSeZmegcrAsGLv0gEE=
+MD5-Digest: E5ecnFAfJMV8/KIjgXqW8Q==
+
+Name: oracle/jdbc/oracore/StreamInfo.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: U8QYHfHALSdpVLJBmYzRCbF1t68=
+MD5-Digest: H/fRWRuvRSmGfQ8bhZ+Sjg==
+
+Name: oracle/jdbc/oracore/UnpickleContext.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ZdBA/y+CcTflJyym7Rp5VPfQFAI=
+MD5-Digest: 9ec2xwcrDSnagy7Wsh8N8A==
+
+Name: oracle/jdbc/oracore/PickleContext.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: vq6MIRzcfzknSbZcu8PieKvIpzU=
+MD5-Digest: GmukBSGjlR50VkqcwLumwA==
+
+Name: oracle/jdbc/oracore/OracleTypeCLOB.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 7VzbdaXQsYXMCVqPE2SCjV+CdrU=
+MD5-Digest: M7M3YZEQLGPfRiuthcQzeQ==
+
+Name: oracle/jdbc/oracore/TDSPatch.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: UDLjJxB8qB0R3XA6U6JlgLWwkFw=
+MD5-Digest: 2rOtF97QZhDaLIJ2UOtlag==
+
+Name: oracle/jdbc/oracore/PickleOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Np02Tim5dWfVHtPaOEYUE2GN8xg=
+MD5-Digest: WIPZdwxFnyUz5Rv9hyQIaA==
+
+Name: oracle/jdbc/oracore/OracleTypeOPAQUE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: t1NY1FwN0AvwKoXbJNkp4c1rvio=
+MD5-Digest: IQltNk5lRwXwH0VhAHEysw==
+
+Name: oracle/jdbc/oracore/OracleTypeREF.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ZL7o7tEi3w3q5AyIEFfLNBKGoHk=
+MD5-Digest: asfoAQXcm+uhSHZzlA4tYA==
+
+Name: oracle/jdbc/oracore/OracleTypeNUMBER.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Ox60a9JjPxOJJBvF99OFQLcFZxY=
+MD5-Digest: O7eDgBkvue+W+FnOxg69Nw==
+
+Name: oracle/jdbc/oracore/OracleTypeFLOAT.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DgqUKuXbNEkfRzpkB0A9cXC1lUM=
+MD5-Digest: JNwrNT/1FzgeEBvE4Yqj2Q==
+
+Name: oracle/jdbc/oracore/Util.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: KL5lVJ1dgx8RiluniV1MddcodA8=
+MD5-Digest: KMbwpfC6VDZWycbK0CODjQ==
+
+Name: oracle/jdbc/oracore/OracleTypeUPT.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wdATwCMFENvk07kPquo1M8oNApA=
+MD5-Digest: bQ+F3Q/JAGPzaYF+WC3rlQ==
+
+Name: oracle/jdbc/oracore/OracleTypeDATE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lJKsHuazZ+xmlgFC47sfP697ugo=
+MD5-Digest: jo2PNroJw+YgHYSgPew77w==
+
+Name: oracle/jdbc/oracore/OracleTypeCHAR.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: KQgBBnSCWl76cjPSYSrqcWM1O8I=
+MD5-Digest: YAG/po539KQXXp5VcnGiMQ==
+
+Name: oracle/jdbc/oracore/OracleTypeSINT32.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: l9QFvuZ8PzT4jFS3oydkj3Zi070=
+MD5-Digest: 6LyG/VNx988qUasCN0A9HA==
+
+Name: oracle/jdbc/oracore/OracleTypeBFILE.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lXtM7/c6zwZs26caxWcNSVdx1Lw=
+MD5-Digest: Sc1lvl3d9ACyTzDzm0MRTA==
+
+Name: oracle/jdbc/oracore/OracleTypeRAW.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RAkACvLtqIx8kBU7TYJm3i7FEOo=
+MD5-Digest: gmYYlCrDmD+dI5+GckhHXw==
+
+Name: oracle/jdbc/oracore/OracleTypeBLOB.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 3ur/15cQ+mbEt9M25nLwncd1qp8=
+MD5-Digest: bifFubfnIALr+BpZW8rm6g==
+
+Name: oracle/jdbc/oracore/OracleTypeINTERVAL.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fVPaHH8B88N1vDoOuY3tbAIMkvQ=
+MD5-Digest: G37TUuTJOih4KoXIvTtVJw==
+
+Name: oracle/jdbc/dbaccess/DBAccess.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8t68J52pfRJD3TbqdPBrLbb78Sk=
+MD5-Digest: eIKMVZq8t8Tim1DWQhbj+Q==
+
+Name: oracle/jdbc/dbaccess/DBConversion.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JkxZGuMy+Exa+TLzKlGNwZDjNlI=
+MD5-Digest: N6VdaV59cCYJvyx4e1wwTQ==
+
+Name: oracle/jdbc/dbaccess/DBStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Nau4VtjubsK5ju+9RKk9BAFTPZs=
+MD5-Digest: 6QluVgZhcaRugOed2qIqgw==
+
+Name: oracle/jdbc/dbaccess/DBColumn.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Jxt4k5Gz+bzm8z6tKGRR67CZpIQ=
+MD5-Digest: n7QJusf4ejh+n/Rl39tYmA==
+
+Name: oracle/jdbc/dbaccess/DBDataSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: oh3HCSid08cEVHxVdeTBsKr/rOo=
+MD5-Digest: 0DH+ZjJGwkUfnqJriqfM9g==
+
+Name: oracle/jdbc/dbaccess/DBType.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mQa/AiFUd9wfb4v9M0MVUkVPKes=
+MD5-Digest: DP+hi8gnGmJw35LUnzm8mg==
+
+Name: oracle/jdbc/dbaccess/DBItem.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fQ8r8eIctoj/3pxltTBapcX1qTk=
+MD5-Digest: jMYVjDQ1A06VJLMMBTfEQQ==
+
+Name: oracle/jdbc/dbaccess/DBError.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WM6UO+0RF985hmBvwlk4/6bZAkk=
+MD5-Digest: l6kRDKOQU7gDsLU/pm0D7w==
+
+Name: oracle/jdbc/dbaccess/Message.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: pyerCR9z5ty/XTKvcTZsygQOMIY=
+MD5-Digest: 8/ASvF26ws10WqiBa3twxA==
+
+Name: oracle/jdbc/dbaccess/DBDataSetImpl.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Wuvnc5JbY3eXjnPkHQfsq3n5Dks=
+MD5-Digest: Y/gQ8kjrYJJ0FjIJlw1FBw==
+
+Name: oracle/jdbc/dbaccess/DBData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: m29QsTipCHnLCrJSMUbq2wrOJbQ=
+MD5-Digest: VEBpIFcjexj1Oe87ybo9+g==
+
+Name: oracle/jdbc/dbaccess/Message11.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: bsK+OTepamFNSji0W7POShRyFdo=
+MD5-Digest: US7HSAJjixN/D2BpkFmZvg==
+
+Name: oracle/jdbc/dbaccess/Messages.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IAkLN9aRm6OiJS21kUA1eWPiruY=
+MD5-Digest: aHizyytr2pOsbbm17iHbww==
+
+Name: oracle/jdbc/dbaccess/Messages_ar.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: N/gfHdLlhayUCSI4FcGjoeRoL9Y=
+MD5-Digest: Ep5I8JMMrSbV143XBaEdmw==
+
+Name: oracle/jdbc/dbaccess/Messages_ca.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: I2GdPdLICy/6UxDDVSviqf7JT1Y=
+MD5-Digest: RTAbIxblIl/xu7xYFvFHCg==
+
+Name: oracle/jdbc/dbaccess/Messages_cs.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: o8Ojl8Ke5YQTf88Wm558CQyqkQc=
+MD5-Digest: 9GMytA4NjsuC96sVIyWR5A==
+
+Name: oracle/jdbc/dbaccess/Messages_da.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ZEHdJ3/gMAnFoG3ftSChxCfB7cw=
+MD5-Digest: IsFGfxE6oqhpL4+eHdYcVw==
+
+Name: oracle/jdbc/dbaccess/Messages_de.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yur6aPBjAvyiIROR5SgXnh7wqjI=
+MD5-Digest: NVe/q638PpzzbRhCki1vyw==
+
+Name: oracle/jdbc/dbaccess/Messages_el.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YOwYAMw+EljaC7gRWenwUWv1EPU=
+MD5-Digest: NExXz4a5iFDRhj6JQemwqQ==
+
+Name: oracle/jdbc/dbaccess/Messages_es.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: QuKETqjQxiBn7uNm0xSGiXL0Nq8=
+MD5-Digest: jReVUv4WTEOHzuF/U2OyLA==
+
+Name: oracle/jdbc/dbaccess/Messages_es_ES.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: QuKETqjQxiBn7uNm0xSGiXL0Nq8=
+MD5-Digest: jReVUv4WTEOHzuF/U2OyLA==
+
+Name: oracle/jdbc/dbaccess/Messages_fi.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: b0c2xEXZJCIAQmTvHJsu2rT/qVE=
+MD5-Digest: poVxZ4q7uabNAMtClRDftA==
+
+Name: oracle/jdbc/dbaccess/Messages_fr.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: KRGkq5Cf4Ri6cHdy0cJ8sFvddUQ=
+MD5-Digest: ZXpXdQ/Ph5dOQ/GreFylJQ==
+
+Name: oracle/jdbc/dbaccess/Messages_hu.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JUwaUGCwMeYNgX+ctjSUtFk/0nI=
+MD5-Digest: AUNqTqI6RQNazCdcS0SJnA==
+
+Name: oracle/jdbc/dbaccess/Messages_it.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JEPFrTDxKNC8kMoiJDgD2jVhE+4=
+MD5-Digest: bZvnQSB0AUkedyS97mF97A==
+
+Name: oracle/jdbc/dbaccess/Messages_iw.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: kwqDcP3RzPJ2l+Uaj1n9jGuVPZQ=
+MD5-Digest: hAjbA3MLZ4VnaatLD3RpKg==
+
+Name: oracle/jdbc/dbaccess/Messages_ja.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: /1kj/NbZ+zOj4QNiCtHWvoK/6TE=
+MD5-Digest: aIm8X/RnuHtVNiDSd2xBoQ==
+
+Name: oracle/jdbc/dbaccess/Messages_ko.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mX7vI0b8CZAkXu2pRyifKNVDdCk=
+MD5-Digest: Dojn9VDcJQ1cEy9dx/WUMg==
+
+Name: oracle/jdbc/dbaccess/Messages_nl.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cmm8lwjJvA+1RsjB9qwMmuG2Hz4=
+MD5-Digest: F3ggefrZ4yc0q30jSpprZQ==
+
+Name: oracle/jdbc/dbaccess/Messages_no.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ftJnDqB94nnBdA6//yAgrGX7x1o=
+MD5-Digest: rc7CRwrN1YWZAYP4N/e5Cw==
+
+Name: oracle/jdbc/dbaccess/Messages_pl.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: BXk0fvkJNTIgV3RNSsjh4fd6Mi0=
+MD5-Digest: JNmWaeZ30crUOuiwwioNoQ==
+
+Name: oracle/jdbc/dbaccess/Messages_pt.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: dVn//VCTAAw8rf2CZ6l8Gg7seLY=
+MD5-Digest: rCYtijIsdFqcc9Wuv0ZrVw==
+
+Name: oracle/jdbc/dbaccess/Messages_pt_BR.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 58xIZtjVidSNJP6MVpHjscwHqEE=
+MD5-Digest: rsGdKMZgHeMhYaZSiYxeWQ==
+
+Name: oracle/jdbc/dbaccess/Messages_ro.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JkgSgMyINQFfurXLFHOXsTFhcuU=
+MD5-Digest: 9rhetK5yFiildYbSH2rFtQ==
+
+Name: oracle/jdbc/dbaccess/Messages_ru.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JcknwAKKoiooTgckmVqTUzDQlPM=
+MD5-Digest: VgtnIflP/Tf5iuYJzyCWig==
+
+Name: oracle/jdbc/dbaccess/Messages_sk.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: zRyncvD2pd99zy1T+4bSWedKPDc=
+MD5-Digest: +lq28hQGKBlS8L9XFMpZTg==
+
+Name: oracle/jdbc/dbaccess/Messages_sv.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: S2djNe6Nxr4/2RTwmfsW+EgvKWU=
+MD5-Digest: 17FpXlYjdkm5yUO3ukvnjQ==
+
+Name: oracle/jdbc/dbaccess/Messages_th.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nfwCYyZ8phAFNU6+XqCsHPsCTlI=
+MD5-Digest: BB6bEXDTWY8SJD4ToCcQhQ==
+
+Name: oracle/jdbc/dbaccess/Messages_tr.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: d+iLMJCeaa616Q54jCqsmghnF0U=
+MD5-Digest: OwinZoMKsj4KpKKBRLWxog==
+
+Name: oracle/jdbc/dbaccess/Messages_zh_CN.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lWwKHAU20uAPy8vD3RF+A6Nje+U=
+MD5-Digest: wNoyiC/U6YFU/RgePGRpEw==
+
+Name: oracle/jdbc/dbaccess/Messages_zh_TW.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wfWE6gOrEm6Va3L8qhyR8vYwD64=
+MD5-Digest: UheRONj2O4bGeg5zxVw6kQ==
+
+Name: oracle/jdbc/OracleStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wvL/1wpW42c/gJ5by+dAb3EoJiw=
+MD5-Digest: GXIjjxBjbGKpeUJc7u6C1w==
+
+Name: oracle/jdbc/OracleDatabaseMetaData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: FMYMB0H4OaNzun3vHFagOedMu0o=
+MD5-Digest: oGjKscvgDAqSiIBLJ/TJTg==
+
+Name: oracle/jdbc/pool/OraclePooledConnection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: KR5JKUtZW/h0gP+UQtIhhcgU8lU=
+MD5-Digest: SckFzlL+yP9u3wZ7l5AANg==
+
+Name: oracle/jdbc/pool/OracleOCIConnectionPool.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: UO2n21gR+cZlQPUNil1Caqmpbzc=
+MD5-Digest: nAmluKnXHs5TSm/o5ygzfQ==
+
+Name: oracle/jdbc/pool/OracleDataSource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Xo/yZdFmhYP9ZGUEt0aMqCvFlRI=
+MD5-Digest: GCxQe3nM+HoxB0vYtQJrtA==
+
+Name: oracle/jdbc/pool/OracleConnectionEventListener.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ShMjFahoBEkjy2Qjha1mn5gvtZc=
+MD5-Digest: qtAc63hYWkQMl6p9wnHj1w==
+
+Name: oracle/jdbc/pool/OracleConnectionCache.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: sgKefYDNLfZKDyyt852zbf9JdRE=
+MD5-Digest: WZCoLFWdKxEZ5d7qoXgxVQ==
+
+Name: oracle/jdbc/pool/OracleConnectionCacheImpl.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: VaNwdl6BJJy8CZlePH9oqow++x0=
+MD5-Digest: Bx9SKs9GFoF5EoGH3fHRVQ==
+
+Name: oracle/jdbc/pool/OracleConnectionCacheTimeOutThread.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tsuI/9AL8w34m3wwCrItVRNE3Gw=
+MD5-Digest: z6g96Dc7Qur12vszH6idJQ==
+
+Name: oracle/jdbc/pool/OracleConnectionPoolDataSource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: AXZzEXUL2lr7MapgK5wRV8EdfTs=
+MD5-Digest: DoCqMa7mXh8dz/utw3ETqw==
+
+Name: oracle/jdbc/pool/OracleDataSourceFactory.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: TZdWyUxze85qOvpPJxiNhiAkyIY=
+MD5-Digest: qU34on1NIyO336vMCHQkjA==
+
+Name: oracle/jdbc/pool/OracleXAConnectionCacheImpl.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: H/QMDhxfFXN9SSa2XhHoV/g72Uk=
+MD5-Digest: htQUeHKHgc2XwymTwQNYQw==
+
+Name: oracle/jdbc/OracleSavepoint.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lOaKTVUL57m4sFTblD9MzR2tjI8=
+MD5-Digest: aBF+fSRcpgibu5IJqpGqpQ==
+
+Name: oracle/jdbc/OraclePreparedStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yiUAlkRZEzqOjdT0Vd+F1Zuly54=
+MD5-Digest: 0RXjZmZIPaws8hBRJHsdCg==
+
+Name: oracle/jdbc/OracleOCIFailover.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: oxJ7wVfVU5DH5s3smL4YAXoU/5Q=
+MD5-Digest: G8N6fQHQb9x14Ti/7exZtQ==
+
+Name: oracle/jdbc/OracleResultSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: S4kmz7G0cjkKJGXNRQdxZLqmh88=
+MD5-Digest: vwMs1VcmVgKXkBsFgZPvJQ==
+
+Name: oracle/jdbc/OracleResultSetCache.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: C1aQWKNdjLX0Ak1ruPVHcCLybbc=
+MD5-Digest: Sh+MzOSX4Vrr0/a7acwIeQ==
+
+Name: oracle/jdbc/OracleParameterMetaData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RLxiTe51yEBDrs9n5/e5b4+M5o0=
+MD5-Digest: 0/8RLpWxTenXd1Lo4XL7/g==
+
+Name: oracle/jdbc/util/SQLStateMapping.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: i8TQMVonFNp35QDGV0N5B2HMif8=
+MD5-Digest: 4K23GUeIdoY29p05cDjI7Q==
+
+Name: oracle/jdbc/util/SQLStateRange.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 6odEBwqDV03DLQY33sJV2mffOnE=
+MD5-Digest: xWApNMxWzLus63BJoEtbwA==
+
+Name: oracle/jdbc/util/RepConversion.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: n/tQEmVitMn9Ln1+76rjXBPxiN4=
+MD5-Digest: QttHZ4UhNUovgHG7kGwGnQ==
+
+Name: oracle/jdbc/util/Login.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yLwyB1LTCqa7ddJw33P1p9KvCak=
+MD5-Digest: VciLvPsgNaB4mpb051G33Q==
+
+Name: oracle/jdbc/OracleTypes.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: rUwGM231n+7+eOMWOuCu6cGoprk=
+MD5-Digest: WAH1phAdiDv6IzKhIlk7LA==
+
+Name: oracle/jdbc/oci/OracleOCIConnection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: A74KOrw1Y5gcid3Pd/14jCFHDA8=
+MD5-Digest: mhYBZqdfKQLYQvZpjGFXPQ==
+
+Name: oracle/jdbc/Const.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MvL6jFVR0YhlatN4W/362sPEigo=
+MD5-Digest: uBLzcnKoNiFYpUy/sz1AEg==
+
+Name: oracle/jdbc/OracleCallableStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: b/25CXnAwz6ktWJgoA9rIC7YypA=
+MD5-Digest: k1R4SaX2m/sbJMV2Bn+n0A==
+
+Name: oracle/jdbc/StructMetaData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: CwhOnsHLAcNAgJphMzItPXl27tw=
+MD5-Digest: dXDBMeLuj6tnhv5HMFH43Q==
+
+Name: oracle/jdbc/OracleResultSetMetaData.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 56gD4E1ttbleTZT29Wf0KEmURaI=
+MD5-Digest: Tax/JHYAO02ICbVYh5J9iQ==
+
+Name: oracle/jdbc/oci8/OCIDBAccess.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 6VR4VQYU2ccl5cnfbQS3s9AY4IE=
+MD5-Digest: 4xMZkhHcbWaKw71vscg7/g==
+
+Name: oracle/jdbc/oci8/OCIDBStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: BH3ONQEQf7FyN6+UoW6a5VcjY/0=
+MD5-Digest: VTp9oZL8wITAQilv3j5qfw==
+
+Name: oracle/jdbc/oci8/OCIDBError.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: aS+Bipezyq7aNuq/emzG4hnTL+M=
+MD5-Digest: 8SMB1JwTTC+OsxKawGaafA==
+
+Name: oracle/jdbc/oci8/OCIEnv.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: eaglQUNvZL7BhaibatVrpFXY0dI=
+MD5-Digest: +sHgHlsCd4VorXB5CzE1aQ==
+
+Name: oracle/jdbc/oci8/OCIDBType.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4ftL03TVcpGA/7qErYKIvFrO/tA=
+MD5-Digest: 1l87vv3BK3R0645gFPRqog==
+
+Name: oracle/jdbc/oci8/OCIDBItem.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: gkiYPgAG7jAhDH5bP1lynXp5a3c=
+MD5-Digest: 6CcxPaPUSzP72HgoHbh5WA==
+
+Name: oracle/jdbc/oci8/OCIDBDataSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: z7s5vuUv1Qvfc+MxnA3DjrhJbLg=
+MD5-Digest: 9/VBPdi/xiGt2gc3LGUVTA==
+
+Name: oracle/jdbc/ttc7/FunCodes.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5+zD9Th4bceq8QUSX4UDd53lgFM=
+MD5-Digest: 7E7TaUvWGKjJfiA2E2Q1uQ==
+
+Name: oracle/jdbc/ttc7/LongTTCItem.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: U4RCcoO6lwddMtDWGXVzjdBs/iQ=
+MD5-Digest: 5A2CEMDT3Gav43IRnrq32w==
+
+Name: oracle/jdbc/ttc7/TTCItem.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: iBq4IQwlIi5rRfDv9wq4JI7HNW4=
+MD5-Digest: dD7PQrS/5DCE5VckZ8j9mA==
+
+Name: oracle/jdbc/ttc7/MAREngine.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cxHG4v2TS9mobu2YBLNpQ6SzPt4=
+MD5-Digest: 0mmVp47dEu+RhovTkhkIkg==
+
+Name: oracle/jdbc/ttc7/TTCTypeRep.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: bwuOyccEx4ibScN1co22kCsJozo=
+MD5-Digest: 2eM9pxBn5i8Oulh53F6IXQ==
+
+Name: oracle/jdbc/ttc7/TTIfun.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: orvGo4QlF2+yYW4QPaWvRDX818A=
+MD5-Digest: QGVlR3vNFb1tTiRALr+/jw==
+
+Name: oracle/jdbc/ttc7/TTIMsg.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ODXGlYPyUnsEqce6pjeb60Ed+Hg=
+MD5-Digest: pPnY5jxDWwQAoUGf6matOg==
+
+Name: oracle/jdbc/ttc7/TTCcodes.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qqiJk/Gv36/OCd5ukHr+XrcQKvE=
+MD5-Digest: hRAmpWBw1/HEN4iK8+ouxw==
+
+Name: oracle/jdbc/ttc7/TTIoer.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: hFAV3ob5T0b8n0TS1y1C3JAiuUM=
+MD5-Digest: gwlOgV9tGGPoNWDlD+Wgew==
+
+Name: oracle/jdbc/ttc7/TTIrid.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ZQEUhOdmkh6RBSzrniodI/S6JkI=
+MD5-Digest: Q1sj8OfC25oKWDwO+QXxYg==
+
+Name: oracle/jdbc/ttc7/TTIti5.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2eBXZhhGP3QYjSUDQ2ouLhxYzXY=
+MD5-Digest: L0URsD511saYNTUToRQIPw==
+
+Name: oracle/jdbc/ttc7/TTCConversion.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: w0i6PNNwYYvJwXUGSDxVdJwmmO0=
+MD5-Digest: NYQUhxjJnDuROHms91W2pA==
+
+Name: oracle/jdbc/ttc7/TTC7Protocol.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: iIvyN2vLqGfEUQogj7fog7V4na4=
+MD5-Digest: 15SHRpY4xsWCJYYm+lLjng==
+
+Name: oracle/jdbc/ttc7/v8TTIpro.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: B3l6NEfvD7wRBAHeDakesOOPCJw=
+MD5-Digest: PsebP2sF7J4Je9nuHbvzSw==
+
+Name: oracle/jdbc/ttc7/TTIpro.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: kiRIqoJvly7W+WiSTCv+DurITnY=
+MD5-Digest: NbzHlDJUo6U0OjSmkP/u0w==
+
+Name: oracle/jdbc/ttc7/TTIdty.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: m/tdJ1lsf3O2UgVVxOget7t+/Is=
+MD5-Digest: 8U4TKAlMyr1pFhPz0Y1DHQ==
+
+Name: oracle/jdbc/ttc7/TTIrxd.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lZorK5WbN4OHlztuuKcshEMkJSw=
+MD5-Digest: ktO40+N2eGAwrQuuIbRpLw==
+
+Name: oracle/jdbc/ttc7/TTCDataSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: oaWZz04J4RGTu/7iNkE4gc12/0I=
+MD5-Digest: LfpEMUCXxToMLXMfd4nT8A==
+
+Name: oracle/jdbc/ttc7/TTCColumn.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2x8oKcdFBGG4s6JwGsRfiiQMyQE=
+MD5-Digest: 7rNQxBr+99X+7CDgvmlqEA==
+
+Name: oracle/jdbc/ttc7/TTIoac.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jVTAh5wPZk6Svp3UTM1f+qcYPz8=
+MD5-Digest: e4WX4jRgdLM5uEjvHcGxcg==
+
+Name: oracle/jdbc/ttc7/O3log.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: o524N+J/Hv9g1JDdYosy6VDOK4c=
+MD5-Digest: ogFwJJhuabBuIcEosSNBEQ==
+
+Name: oracle/jdbc/ttc7/Oversion.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xOH29AEPih972cYpi3/zidaDu2o=
+MD5-Digest: QCDGAR5PBl9iBJhZjtzorg==
+
+Name: oracle/jdbc/ttc7/Oopen.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JK9fepJ4cB7JLIt3bZgnBi/O5kY=
+MD5-Digest: /osBEAtt4YYKsagU6Dx5gg==
+
+Name: oracle/jdbc/ttc7/Odscrarr.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: XL7zYBC6sMYNgIYteKfJ9E7NNrU=
+MD5-Digest: UEq3KeCeovJHT7ali6aYDQ==
+
+Name: oracle/jdbc/ttc7/TTIuds.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qfH/tyAnSsMJgweu/oqIHv4m178=
+MD5-Digest: 78RvaNMhbr9mvkIlg3CDBA==
+
+Name: oracle/jdbc/ttc7/TTCStatement.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ikDPBBFY55cqR2mWI/sXZ068DBM=
+MD5-Digest: kRNZsk4QzcvNxx9BMe4ziA==
+
+Name: oracle/jdbc/ttc7/Oall7.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: yvOfzybs+jegZlg6d5AZfHw5Enk=
+MD5-Digest: sS6B60pWQohQy6bkgQIbrg==
+
+Name: oracle/jdbc/ttc7/TTIrxh.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2/oNRuqGvlcHcZ6MWkqq6ADKPVk=
+MD5-Digest: sFMwO2YORXn1zar+YBJJQQ==
+
+Name: oracle/jdbc/ttc7/Oclose.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9EncC+wLTgs9OMHneJYXHPyrcgY=
+MD5-Digest: eOYlKuPWQ3UzTA2TQJY0Aw==
+
+Name: oracle/jdbc/ttc7/Ocommoncall.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: AHjNInhGrKujpHlGmrsAiWGapSo=
+MD5-Digest: OX3bZTFKG0tzpfWq2e8hrg==
+
+Name: oracle/jdbc/ttc7/v8TTIBfile.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: +zKR/gT6/dTLa2L1una5tAb0niY=
+MD5-Digest: diGoTlZ4l6ybak1lOk6mOA==
+
+Name: oracle/jdbc/ttc7/v8TTILob.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: weF1z51I8V+sBAlx/LfYDjQWJlM=
+MD5-Digest: lfLNTjfVut8UjNBZSjRqxQ==
+
+Name: oracle/jdbc/ttc7/v8TTILobd.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: vJ7Uwa4045O5hylRNlipRhFDUng=
+MD5-Digest: IAUMtB0kzND4lHRWiI7kMg==
+
+Name: oracle/jdbc/ttc7/v8TTIBlob.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YYqA/oXNMPVaT/RdVZd6ccvhL4k=
+MD5-Digest: WzPYIegzwsuh9S5Hm3Ap9w==
+
+Name: oracle/jdbc/ttc7/v8TTIClob.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: LT5ujgvHS0mRWTsD+il5f1CK2MU=
+MD5-Digest: ms0M2J/bugYo/b7Cax/bag==
+
+Name: oracle/jdbc/ttc7/v8Odscrarr.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 6YaRcfo/oFaJsgpiGv0J9vkKU0Q=
+MD5-Digest: 2D4Hhg+QDkCTk84p0HK+qg==
+
+Name: oracle/jdbc/ttc7/v8TTIuds.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mF6+J8KBQhYrd+B219x8lERPcBs=
+MD5-Digest: UqGaiKQKUSmpnUBKxbcKBw==
+
+Name: oracle/jdbc/ttc7/v8TTIoac.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WCB10rc9lEiJXMr3lKurdz13ftM=
+MD5-Digest: CHeGQe25ZC3OvDOZdRlQhg==
+
+Name: oracle/jdbc/ttc7/v8TTIdty.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: UAXHYbqDX4Y+cIRfSYvti2iWTwY=
+MD5-Digest: 7vj3PWZBQl0O3ck0px5oqg==
+
+Name: oracle/jdbc/ttc7/v8TTIrxh.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: urubprymatzm/6EkH5PS3GQ+3Sg=
+MD5-Digest: OjApadJoSw3AfGqOv/11Nw==
+
+Name: oracle/jdbc/ttc7/TTCAdapter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fYRAfXURWJXJ/lri1ZFldJYWUUA=
+MD5-Digest: GsqNKxm0kYmv9p6gw0C3Mw==
+
+Name: oracle/jdbc/ttc7/PlsqlTTCDataSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: NjpjpuRnr9VzTgrNDrCieNSmQdw=
+MD5-Digest: NusvUIr+wmakt14B5t+SHQ==
+
+Name: oracle/jdbc/ttc7/PlsqlTTCColumn.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: bBg2Zs69Q/6C3GSObrdlRcRdsSM=
+MD5-Digest: tmUqauvrSmBms5BoyHp8+Q==
+
+Name: oracle/jdbc/ttc7/NonPlsqlTTCDataSet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: eFviLj7fi2DoUEMXS6ilnxZwpuY=
+MD5-Digest: /agZY+oFcnZMgJnP7tD9VQ==
+
+Name: oracle/jdbc/ttc7/NonPlsqlTTCColumn.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: UYHwJ74u0wPh3uSVGyMQLf+ngvs=
+MD5-Digest: HYMvEnk290qJTDt2sevJ0A==
+
+Name: oracle/jdbc/ttc7/Okod.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cHSVQCyhMpadUfU6CwiSblTV5ZU=
+MD5-Digest: aycpG1Ih0peFqgfjxuE3YQ==
+
+Name: oracle/jdbc/ttc7/NtyTTCItem.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: PEOiwJMdjzHmeDaiKWmAn0FrNXM=
+MD5-Digest: SY23Z+tPjdXWZHmzk+Vy9Q==
+
+Name: oracle/jdbc/ttc7/RefTTCItem.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: OfL8qh7Bnm9Yw4nIZRHssNbqxXY=
+MD5-Digest: Asb0TzJPIs8RMqrFXW/q0A==
+
+Name: oracle/jdbc/ttc7/RefCursorTTCItem.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4pUK8POUDOoKU0rmWSv2wc+Rvt4=
+MD5-Digest: tDGCDtQjDV+kt3VNbe1Ubg==
+
+Name: oracle/jdbc/ttc7/TTIiov.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8rKTqz+JUQcUimMtoujRk+IJ+jg=
+MD5-Digest: 2vR7bKfMC8v7Cfspik/6nw==
+
+Name: oracle/jdbc/OracleConnectionWrapper.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: SHEdZajr/fa2vFC5rsxUIZIj/YI=
+MD5-Digest: IimDXsGVQYNOzUfZ/8alog==
+
+Name: oracle/jdbc/xa/client/OracleXADataSource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: BYJCGo8t38UlwZ8yod0B16IKkYc=
+MD5-Digest: mUv54rP6AIwi+MEvFt4Ueg==
+
+Name: oracle/jdbc/xa/client/OracleXAHeteroConnection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: dI/+Bln+/A7EeNSX2bOgEl1IiUA=
+MD5-Digest: DwEGcIxtFzT+8faZxqkogg==
+
+Name: oracle/jdbc/xa/client/OracleXAConnection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: o0yCsN03DjNWTCekQA/kCrwp4RE=
+MD5-Digest: Lbk8b59AIBNSNKuuqEpKCw==
+
+Name: oracle/jdbc/xa/client/OracleXAHeteroCloseCallback.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WPW0gzXKp46Y3ki6wfR0J4X7YOY=
+MD5-Digest: kqPNFkob8+2GNYck8ge3sw==
+
+Name: oracle/jdbc/xa/client/OracleXAResource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: mhqx6EvK7EuiVB/AXoCaLV9RZ2A=
+MD5-Digest: w6mG3vFyG/ypZvUAbfg9rQ==
+
+Name: oracle/jdbc/xa/client/OracleXAHeteroResource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: glITEif+1BgtJVkZ4QYsrtDEVCU=
+MD5-Digest: uI3zKtjINtn5pKlZLs5M4g==
+
+Name: oracle/jdbc/xa/OracleXADataSource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jGDFjvlXeBqYYjzPd2d8fl8rLH4=
+MD5-Digest: xV29W3Dw5ZMQR4sBicWUzw==
+
+Name: oracle/jdbc/xa/OracleXAConnection.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 6CC9KzicurkdZvRDyqsmLQK64OA=
+MD5-Digest: KPR1Z2ad9HAxO8nPQO7KZg==
+
+Name: oracle/jdbc/xa/OracleXAResource.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DCLLyCC3XNNUek7yQmSzbiUnPy0=
+MD5-Digest: BRllhH8RR2iwSjjr5hQeAg==
+
+Name: oracle/jdbc/xa/OracleXAException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: BaLY4T8EQhd39WGnIgXAqK8cQmI=
+MD5-Digest: 3wNcmNdXhVXLm0gao+nSxg==
+
+Name: oracle/jdbc/xa/OracleXid.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Re3NEvEi8J7BhUk27ZXT+wBijc8=
+MD5-Digest: 7LlJIDjzSGT7Vi6VhbqOig==
+
+Name: oracle/jdbc/xa/OracleMultiPhaseArgs.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2A6rSIE6VqPwsZ8muSVSiAWfd6o=
+MD5-Digest: Yk4Fhff1HTqtXbh5r8+6ow==
+
+Name: oracle/jdbc/OracleDriver.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 9rr5c/SS5xy+kDpBjpboBNk57WM=
+MD5-Digest: w1RZecZ/Yww53LqxuqZItA==
+
+Name: oracle/jpub/runtime/MutableArray.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: C6ND8+igREz2cLiJ3YZZZX+haXg=
+MD5-Digest: CmObGly+4CjP81K4B7uYRA==
+
+Name: oracle/jpub/runtime/Util.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xzY5TiG1n1zAcxvJzkoYsiYMxi0=
+MD5-Digest: 7cAHSJCTjvasM+9KACe18w==
+
+Name: oracle/jpub/runtime/MutableStruct.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: HA0TjtsrCtRV81bh/ShBJCU+RiA=
+MD5-Digest: tjqdVD+bfbTJ9B/BuvywVQ==
+
+Name: oracle/core/lmx/CoreException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RWZRNRk3MDNNnOK5QrwmzbdOhTI=
+MD5-Digest: U/DZVwsWUL4BX88hS3YHng==
+
+Name: oracle/core/lmx/LmxRepConversion.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 66LU9R3lJvYxRMoAt/JHPxjK4H0=
+MD5-Digest: LF1ptfrSy2M9IaWjmfzkTw==
+
+Name: oracle/core/lvf/VersionMgr.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2iTCGy1VSnAxR7SzQ3BqQhtwc2U=
+MD5-Digest: ArmzUCnch/oYVIv5EjwB1g==
+
+Name: oracle/gss/util/CharConvBuilder/BigCharDataParser.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Sctr90SFcACkWC7kfAkRW34CLRM=
+MD5-Digest: AZ0zowPVXmRB+AxJjMJT8g==
+
+Name: oracle/gss/util/CharConvBuilder/BigMappingParser.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: pPk49MXa6EsTCnV+XN/WJyhK2gI=
+MD5-Digest: 1jf/BDHuYV5yK2EGqpgvMg==
+
+Name: oracle/gss/util/CharConvBuilder/BootBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4QBzMv8mp1wBlHajwb0btete6UI=
+MD5-Digest: UDolJq6TP2v4dd3mi67/0A==
+
+Name: oracle/gss/util/CharConvBuilder/CharConv12ByteBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cx01rYyD2xHvb6C+I9aVscxgCyY=
+MD5-Digest: GEbvwANjzuFDZq5t8q2nTQ==
+
+Name: oracle/gss/util/CharConvBuilder/CharConv1ByteBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: prMLmPHKoUXd1tbpPvLDwJtO924=
+MD5-Digest: CxYy0gLf4np0itTZ5ohhlw==
+
+Name: oracle/gss/util/CharConvBuilder/CharConv2ByteFixedBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: NcJowBWQ7Dl8nx6KhaMzi/tw3Ws=
+MD5-Digest: /pvp7splqjiueC1wB1kq9g==
+
+Name: oracle/gss/util/CharConvBuilder/CharConvBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xunRKC1cmRFfxPhARG+MO+3WICo=
+MD5-Digest: sYb3JrP8P33lCW+vuurxCQ==
+
+Name: oracle/gss/util/CharConvBuilder/CharConvGB18030Builder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Nkdw84k18Ir+o+zMYuLDY+6uj9c=
+MD5-Digest: h8UqxpBWSiaVDkDtbMGqaQ==
+
+Name: oracle/gss/util/CharConvBuilder/CharConvJAEUCBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DNi4wK9Thxoavv07AaSIhpnK0DU=
+MD5-Digest: t67anBDxe2mweUcoEb+fdQ==
+
+Name: oracle/gss/util/CharConvBuilder/CharConvLCFixedBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 7NdLJQX3nUvjP9suPmnBZqnxlEs=
+MD5-Digest: pSXyL/RuIHi9YSnPyM48+A==
+
+Name: oracle/gss/util/CharConvBuilder/CharConvSJISBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IcVRut6TTpKT0Po1JDZAklq6oE4=
+MD5-Digest: GVeXtrdpvZ8RN/WyH5GhNA==
+
+Name: oracle/gss/util/CharConvBuilder/CharConvShiftBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: BbBOKp7HS/9FTz82qHSy1S43k4k=
+MD5-Digest: tVRTJ7Ezf7mtneAH9xzfqQ==
+
+Name: oracle/gss/util/CharConvBuilder/CharConvZHTEUCBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: FMGKhexf7hkqkjXm+2DnO3oVuJ8=
+MD5-Digest: 9pWTYHwm7tExDupCSDRMow==
+
+Name: oracle/gss/util/CharConvBuilder/LCMapSetter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: gHuDZoSR1TB/MKx6M9MRZ+i08sQ=
+MD5-Digest: wlspm0Srb//KkPfbt+eBQw==
+
+Name: oracle/gss/util/CharConvBuilder/CharDataParser.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ysKBYRhSzKgoO263c7ZO12Dwczs=
+MD5-Digest: 1L02P3I72nDaaq0hKZeK9g==
+
+Name: oracle/gss/util/CharConvBuilder/DataTypeParser.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: pXzdGH9mWj6q+80ep0JO7hrDWi8=
+MD5-Digest: SJct8fK+e76Vs1AmfdfzBg==
+
+Name: oracle/gss/util/CharConvBuilder/ExtraMapSetter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nu8BOdQPu+BEyOtUTeNEP4zm9f0=
+MD5-Digest: JmV3NruSiXJtBT+5nW2mng==
+
+Name: oracle/gss/util/CharConvBuilder/JAEUCMapSetter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8jGM8Py6/3aK0ieLjJEprZaTuq8=
+MD5-Digest: Ny1UlSOWAX10aIUCAnw9Yw==
+
+Name: oracle/gss/util/CharConvBuilder/LCFixedMapSetter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: rYYyjOrgmbvFL497CI8l0ONvKT0=
+MD5-Digest: gVpC4Z2BuWheSE9opczpcw==
+
+Name: oracle/gss/util/CharConvBuilder/MappingParser.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wN+inNerUiA1Zey+dWbmnfyTev0=
+MD5-Digest: L1rxrXbmLclaYAb3nnGlcQ==
+
+Name: oracle/gss/util/CharConvBuilder/MappingSetter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WCuE3bs0L4RBsK+hQnrqkecW5kg=
+MD5-Digest: RwATRKLjD8rPL+QiymPpVQ==
+
+Name: oracle/gss/util/CharConvBuilder/MultiByte12MapSetter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tM2Mla1Yai4CcVSvDs7dWZ+TWVM=
+MD5-Digest: fwb2OkoK9pXIQ2Y7NeD+BQ==
+
+Name: oracle/gss/util/CharConvBuilder/SJISMapSetter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MfAb89hEMPi7aYtSm2FtzlvGrGU=
+MD5-Digest: QNLb66KrpYI7Q7zczCMYoQ==
+
+Name: oracle/gss/util/CharConvBuilder/SingleByteMapSetter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fqacn50g6AhBZtyCSBGliGzNfOk=
+MD5-Digest: wpl4bD5gBCkuTHEorMO/dQ==
+
+Name: oracle/gss/util/CharConvBuilder/TokenParser.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ceRntz5Gv00J3ZwKFwLR/LQ9NSU=
+MD5-Digest: ytSPU9vDjBtbLpZaSDanKw==
+
+Name: oracle/gss/util/CharConvBuilder/UniPropBuilder.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 1BmnIQfTPXL55pJLFGnL4WmBGBI=
+MD5-Digest: W7xhqr+hqwez5M2KgwsaMA==
+
+Name: oracle/gss/util/CharConvBuilder/ZHTEUCMapSetter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: e6n7gm58OwDLz6U4gx5LZqWXDO8=
+MD5-Digest: mo4SqiswHic4aXdmimiEZg==
+
+Name: oracle/gss/util/JNLS.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xigpparUT8s8B2M/mjZYhhk9JJU=
+MD5-Digest: ntuXsmTLgWvYSRUvQSIAUQ==
+
+Name: oracle/gss/util/NLSCharacter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RD7d/7BWfQz/KeJbuMWJGDtqCHs=
+MD5-Digest: ODMjhSDEcNAd/g6mya9aaA==
+
+Name: oracle/gss/util/NLSError.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: B/aWgr90LYTXOnwcGAscgCmZnxc=
+MD5-Digest: aucyLypHr7nTYvhQ23nNJA==
+
+Name: oracle/gss/util/NLSLocale.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: HPLERtaYUiIX7WlICIOLTVeMjj8=
+MD5-Digest: pC0oT/cAn9cpuOdPgNCEAA==
+
+Name: oracle/gss/util/NLSLocale001.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: +G4hZMZLIiUt5VQd9DUnmwtOCXM=
+MD5-Digest: DEVnNvrotxZY1sU4SW3zMw==
+
+Name: oracle/gss/util/NLSLocale002.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: /eSJetBGhMeLqErwjX03DGl0p88=
+MD5-Digest: lUCHFK/uEPSe6Ot9M5lLzA==
+
+Name: oracle/gss/util/NLSLocale003.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DNRsl0BvZRIZPq75NEuX73/+iew=
+MD5-Digest: Bg5vF2Phf8RR0f0CRqiOmg==
+
+Name: oracle/gss/util/NLSLocale004.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: n/2N7QQbWBXFjhdbcLjkLeq98+E=
+MD5-Digest: xozdVtKz4vuHtE05Iboj8A==
+
+Name: oracle/gss/util/NLSLocale005.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IUUQVkKo83qrPoMv8wkdKKy0FdM=
+MD5-Digest: nsj29N94UhyJEFh0cZ/qUg==
+
+Name: oracle/gss/util/NLSMessage.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 7eJOMxZEyRX99rww8rY0HUSx63I=
+MD5-Digest: WPQ2M2pQQKOtqCGBAkzm7Q==
+
+Name: oracle/gss/util/UnicodeProperty.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: upge6Nm/PZF5lCY69GPmItyp67A=
+MD5-Digest: 1bQoOpfJCcy5UOcBrJLGOw==
+
+Name: oracle/gss/util/XmlValidate.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: L63ryJzAHqnzfhXZiaL81KgxnsM=
+MD5-Digest: IJ2WCGmRhh2ESR4JVMl7KA==
+
+Name: oracle/gss/util/data/lx0boot.glb
+Digest-Algorithms: SHA MD5 
+SHA-Digest: AJVSta1L3N3R5fJp0AV73LG//bA=
+MD5-Digest: 86bK41gMhkd+O0ajysD+7A==
+
+Name: oracle/gss/util/data/unicodeprop.glb
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DbQZpTKlgGTLctGJxFC75K3zZA0=
+MD5-Digest: 1gcfl0y7WDYf91JGbJ6M8w==
+
+Name: oracle/gss/util/message/ORAMessages.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lhxtij6kLERhT1HzZsjvuiahPc8=
+MD5-Digest: FAg9Ndaf6dcDW1nZ0O1UdQ==
+
+Name: oracle/gss/util/message/ORAMessages_de.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+MD5-Digest: 1B2M2Y8AsgTpgAmY7PhCfg==
+
+Name: oracle/gss/util/message/ORAMessages_fr.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+MD5-Digest: 1B2M2Y8AsgTpgAmY7PhCfg==
+
+Name: oracle/gss/util/message/ORAMessages_ja.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: O3XjLeVVI6CHK/2MixV5xXz4ZlE=
+MD5-Digest: g32EPjSpSPBOcSxFY4L+qw==
+
+Name: oracle/net/TNSAddress/Address.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ABJxoxPmwEdR5IeZMdNqxSB1SB0=
+MD5-Digest: MdDS036Kqym8X5u6CeJZlw==
+
+Name: oracle/net/TNSAddress/AddressList.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 1j9vyjdcwiC3JbOp1BXqXMbHubo=
+MD5-Digest: SnmMHC7dbBAfVozOLyBgVQ==
+
+Name: oracle/net/TNSAddress/Description.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IFg/Ohxp0aWc2vDbN1BdvCz+N24=
+MD5-Digest: KvXQKZwZDadEtJGt/2xEyQ==
+
+Name: oracle/net/TNSAddress/DescriptionList.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 3bi84oeDlDQArdmAXL1D+j2tP9A=
+MD5-Digest: jNjRL2FrcjmpAFmWOTrewQ==
+
+Name: oracle/net/TNSAddress/SOException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Bu5Gv9RTtF043Qhh5X4ehXncn3w=
+MD5-Digest: hx38kUciVuZoLkFwrenIWA==
+
+Name: oracle/net/TNSAddress/SchemaObject.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DmH6md7wlXtm+kvePKEelAE3hSI=
+MD5-Digest: EUuozzxXA3ZbvBgreTcBDw==
+
+Name: oracle/net/TNSAddress/SchemaObjectFactory.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: hJRQ8ejwVnVvGlaTzaX3jK4hyCw=
+MD5-Digest: BXSidLHUnMWXDCf4y0+Z9A==
+
+Name: oracle/net/TNSAddress/SchemaObjectFactoryInterface.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8IFFUCz9wuGOwsIESNKhOFA7y9A=
+MD5-Digest: YS44/t5IVud79qGdhFiCkw==
+
+Name: oracle/net/TNSAddress/ServiceAlias.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wz36zj68w0jCRE8Wo+VR6kygWDQ=
+MD5-Digest: lXat7gHVbok0/Wb4teZJ1A==
+
+Name: oracle/net/nl/NLException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ALT8ZTz5RjILxYqjEc5Fa4DPkzc=
+MD5-Digest: 4mW7t/W+6CJ4b1bO22Seww==
+
+Name: oracle/net/nl/NLParamParser.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: /h+NGCz2f5/l3N7L/xN+GML2dS0=
+MD5-Digest: bB6zk/IVqz8qw3Lp1cfS5w==
+
+Name: oracle/net/nl/NVFactory.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0PaM38Z+XxvpYD7l5Ldc0b/XALQ=
+MD5-Digest: RZXQiw5Gofba1AGKgNwjdQ==
+
+Name: oracle/net/nl/NVNavigator.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: P3A7qP1cFT9IKAM2FF5Q0SvaHEw=
+MD5-Digest: x7yEGETF7rSlXfSIdxGbZg==
+
+Name: oracle/net/nl/NVPair.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: vf/FWn0bPkGI7b+DcPkLBKGTqmQ=
+MD5-Digest: DdFNcwImujeaPz0BQHmzNA==
+
+Name: oracle/net/nl/NVTokens.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 42CfcuZp/TkwLyWRkBXD+Ugiv6c=
+MD5-Digest: mBpm7VBnTBI+jAKIw1Mj9A==
+
+Name: oracle/net/nl/RepConversion.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cOoEvFlbxB9Rt1twHeQEZT9REzg=
+MD5-Digest: LB0V87y8uB3KWEWHHG75gQ==
+
+Name: oracle/net/nt/ConnOption.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: u9sD7KsIx6dQbZmdyK/IQFDrIJw=
+MD5-Digest: 4NQC56oC2SmXY3esPmzhLA==
+
+Name: oracle/net/nt/ConnStrategy.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qAKNA71ZEXJnKoCgn5Z3TFKU7T8=
+MD5-Digest: t4nGO+FvG9InE7KtfUVt2A==
+
+Name: oracle/net/nt/NTAdapter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: J1K8H1mQkFir4+p/wRWxdE6U+JA=
+MD5-Digest: vVULU0NaBVbmmvyOGTdvXQ==
+
+Name: oracle/net/nt/TcpNTAdapter.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xPlQDkxlOHx5p9wdwhCM2Esy0Jc=
+MD5-Digest: 5h6t/6P2ckmnnGL/UolTTA==
+
+Name: oracle/net/jndi/JndiAttrs.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ouKbgRT9pKR10bJJCJq5aKHipkY=
+MD5-Digest: jXvjfqPhByVJM9kQqdppeQ==
+
+Name: oracle/net/resolver/AddrResolution.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RVwWkltMCQjQvb8VsFMVS0jxizE=
+MD5-Digest: W0Kdwmbed8JTPmk54z9j1g==
+
+Name: oracle/net/resolver/NavAddress.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: F8YBe/Z+A44zv2t/vbQM6oxKXrk=
+MD5-Digest: 6Q1WsetTeffT1TxPDDm1VQ==
+
+Name: oracle/net/resolver/NavAddressList.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: PetQLvezakwaCBv7l5qfpbjirpE=
+MD5-Digest: 87RBJViFh33la/7oeh+eTw==
+
+Name: oracle/net/resolver/NavDescription.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: R0dkcDhsxmAzcySquGfGTG/Ym6o=
+MD5-Digest: DUf77z/cFZTp63Z7jxKm3g==
+
+Name: oracle/net/resolver/NavDescriptionList.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nfEKw14IdkQeo2Ji8lLJZbctHbU=
+MD5-Digest: QoUD6+8wHlSk2eFlDcb2pQ==
+
+Name: oracle/net/resolver/NavSchemaObject.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 6KXdJwO3E2S7s3CxzzEEZzMfedQ=
+MD5-Digest: s2CrDc9zp86PlsPKZgqgOw==
+
+Name: oracle/net/resolver/NavSchemaObjectFactory.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wig1ms29RqxIGOQ1GzbYILckQ2w=
+MD5-Digest: zvQs9qXskfrnnGLm0p4sUA==
+
+Name: oracle/net/resolver/NavServiceAlias.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nY6wqgdJdxt/qAPAYfQ8RKWkjsQ=
+MD5-Digest: a00GsjUmr6MMiPIi+yIp7Q==
+
+Name: oracle/net/ns/AcceptPacket.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: SwomXWZpXJriF1zsuU8olLGtlBo=
+MD5-Digest: WuYsg031tWC/+xJcMtIMwA==
+
+Name: oracle/net/ns/BreakNetException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 7lQgG3p/dZedwtfYCezCk5yszgI=
+MD5-Digest: 5BcBBp80p7oWz98r14nHrQ==
+
+Name: oracle/net/ns/ClientProfile.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: l6iUHl/cnthwx1j8JfqCdsf9vf4=
+MD5-Digest: Ja9r4i6lla48iyaZiRt0jA==
+
+Name: oracle/net/ns/Communication.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: UyBxGVwH9g63MxkxgwB3fokvuTc=
+MD5-Digest: GcWrjUTF67694PJB+7+ErQ==
+
+Name: oracle/net/ns/ConnectPacket.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0ml31zcfBCSYUGlI25eqy7pD05I=
+MD5-Digest: iUdDLsp1pHGtmzd26NU/ag==
+
+Name: oracle/net/ns/DataPacket.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: X8FGhGc7RBXTSIZbxDsGYULhNBw=
+MD5-Digest: nssmlr7mnpXEOG0EGzBOow==
+
+Name: oracle/net/ns/MarkerPacket.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: UH55FZonpb/mot2ii3pREGXtQ+I=
+MD5-Digest: FpWNF/bGOMKMZWjQTDUTgQ==
+
+Name: oracle/net/ns/Message.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: LuMDu+EwJ4RMp4xYzgPFvBz9r3k=
+MD5-Digest: Jg6/bCspYoqEVanvuc4nMA==
+
+Name: oracle/net/ns/Message10.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: By75bE4tvqCSYIxvqmdUtda1wzc=
+MD5-Digest: bxaOKNHeZi8JdGErurAErA==
+
+Name: oracle/net/ns/Message11.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WHnUvZoMbxBykli9d4jpIinRqos=
+MD5-Digest: V0dGxCS2SIML/vUKETB3Ig==
+
+Name: oracle/net/ns/NSProtocol.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: NqIhcxKQHUD4HkeQdTUCFReZZqo=
+MD5-Digest: BDsD1PIghwGVOYqBa7fHrg==
+
+Name: oracle/net/ns/NetException.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DachUsb+bnuVsm0Q+6tsc5QF2x8=
+MD5-Digest: 1BThAVpdpcmG4lPJJc/JUw==
+
+Name: oracle/net/ns/NetInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Hu1e33625+BBExU8Is9TF9Ed5F8=
+MD5-Digest: GfJDsaY+vqzFYdltvOpbRw==
+
+Name: oracle/net/ns/NetOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5r9aNSSW5y9ppL2LYFZrqpNwpgY=
+MD5-Digest: DN+1ms1IkhkJ3Bl/OBWyPw==
+
+Name: oracle/net/ns/Packet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: pnmx1ARnO/tW8IxwPGCl6FRYUnU=
+MD5-Digest: mZO80lZmNuXiH0LzMiFOug==
+
+Name: oracle/net/ns/RedirectPacket.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: VaoAfWQkmyjTY7Ijh/Rej5NdApY=
+MD5-Digest: rXc11iE8tn5aAoS8R5GKMg==
+
+Name: oracle/net/ns/RefusePacket.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lK3PfQh4R3W23K4OGoyzoCr6Piw=
+MD5-Digest: C44ZV0wJCkLaHv1RLBSgrA==
+
+Name: oracle/net/ns/SQLnetDef.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8Gk8K16+ZXZplKWhrDFtJuTVZVk=
+MD5-Digest: d46YzwEs9BjL4LXw3620vw==
+
+Name: oracle/net/ns/SessionAtts.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: YnVUMvlhO7Xj417RcFlTI9oxaCI=
+MD5-Digest: n+Fic6fBWsSg62KOMrvOsg==
+
+Name: oracle/net/ano/Ano.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qebCuOQBDKqMfDwW/TuTvDm6zH4=
+MD5-Digest: 3v0lkCZ+/Hua6TwmXy0DaQ==
+
+Name: oracle/net/ano/AnoComm.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tjH7wIdt8eSL6l3ytRtzc/CjtpI=
+MD5-Digest: X71CBgcm8+ZfVp96TvMzUQ==
+
+Name: oracle/net/ano/AnoNetInputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: C1WGBh1v5+i/a/AyOJI0QRLd3lw=
+MD5-Digest: 8JGgPgnDYWmzQcHRKJf5FQ==
+
+Name: oracle/net/ano/AnoNetOutputStream.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tsHsSYgDizKHUbRISUZ1g3S5xJk=
+MD5-Digest: 9gD18V8hADoOQcaynnoK/w==
+
+Name: oracle/net/ano/AnoServices.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ZYpDacLwAn3XIa6IUgjj2Xk345g=
+MD5-Digest: rnuwTgj2p1i2AON/+tMv7Q==
+
+Name: oracle/net/ano/AuthenticationService.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: GzYyNsqrw+Y0m0eWr3r803FNcNA=
+MD5-Digest: BIBiY536+SIWYRKSoOo1jQ==
+
+Name: oracle/net/ano/CryptoDataPacket.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: jRMp5HwLrmWDk92KN6xf3+D46ZE=
+MD5-Digest: RyuCSXKN9+0k9QbdvVItlQ==
+
+Name: oracle/net/ano/DataIntegrityService.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: R45/SUNCm+P4yBdIWBfnd9Bhqwo=
+MD5-Digest: 3s1iAB8Fn+Hq4lvtPUx4pA==
+
+Name: oracle/net/ano/EncryptionService.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WFD9c/5FsjT+9ExxM67N5DWWqu0=
+MD5-Digest: q0SVli1fzF5sNjqtCfwTEA==
+
+Name: oracle/net/ano/Service.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: V6Nv29ym3sZVaIy3rHy5JogUIxs=
+MD5-Digest: qX6bQ5ZOHJrRTIFmTmbSDA==
+
+Name: oracle/net/ano/SupervisorService.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 04yXcE3+T/hAou3+iDRzzmZAY4g=
+MD5-Digest: u9l9GU3ONMo1GElPyyNHCw==
+
+Name: oracle/net/aso/C00.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: fEBwtoLIQ3xuihCPqXYdCPEamcY=
+MD5-Digest: LFeaS5Uoc5Ve+CRLDwqubg==
+
+Name: oracle/net/aso/C01.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wHrosv+1/B+lQBdcsX+hU6uOakI=
+MD5-Digest: Vr6rR+tHmM3Z77UdLPi58g==
+
+Name: oracle/net/aso/C02.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5tYlAFOdca69FRWaHdefA6QcZZ4=
+MD5-Digest: gAGr3l9G8qd9uc+AcvvteQ==
+
+Name: oracle/net/aso/C03.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: aIkmhFdFrwxu1Fi/AlSykh3Z6TY=
+MD5-Digest: 0mY+FVr50NTthVCVcvX6pA==
+
+Name: oracle/net/aso/C04.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nbkjqpIqPkcf4FUmYQVqm75ZE8g=
+MD5-Digest: 9qcfSgydU5jwYmiWPjQOFw==
+
+Name: oracle/net/aso/C05.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: XiKDOuCnzzU6COhlytR+YYnh3zI=
+MD5-Digest: CB3x7rtIHWJXVf86BrSKVw==
+
+Name: oracle/net/aso/C06.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: if4EQiITXDMnXJxLSuSKR70mR+4=
+MD5-Digest: 3nX6xSWX60je2TaYYaV7Wg==
+
+Name: oracle/net/aso/C07.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: PzXa9ysMt1oQ1vQyFyEk5Qn5it4=
+MD5-Digest: 02uTGAvQGJM7xDAPXt7uJw==
+
+Name: oracle/net/aso/C08.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5IBroAGvzNVgLZdCOpL2JDj7LIk=
+MD5-Digest: pKbaLpeghI8uMzt/Cvn8JA==
+
+Name: oracle/net/aso/C09.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 3Kl/7ILzDty4z4sszvItRZ9Hgxs=
+MD5-Digest: 2R3ILSYYZcp02o2rDz5QrA==
+
+Name: oracle/net/aso/C10.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: NXI8AZ+useODDJjKW9LdI3fyUi4=
+MD5-Digest: 8jdsfQS8nct4Nwm5tDundw==
+
+Name: oracle/net/aso/MD5$SD5.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 4+XiSYbLLeNGJxi+I/zM1vFb748=
+MD5-Digest: CFSmytMjOv0gPefkHt3JrA==
+
+Name: oracle/net/aso/MD5.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: HEdjwFi1FgYTMVnjpIomwFY50ns=
+MD5-Digest: lHPwIsENTjsVA6NlydWqUQ==
+
+Name: oracle/net/mesg/Message.properties
+Digest-Algorithms: SHA MD5 
+SHA-Digest: nJoAzVhhSgqK1FoWRSCdTdCBESk=
+MD5-Digest: eQGvbe5bnTxq5vTLlv2mIA==
+
+Name: oracle/security/o3logon/C0.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 1PSNMbUjvRnn6yg1bBVn3wHSLms=
+MD5-Digest: giCJ9ExrsQ/d/4umx6x3Gw==
+
+Name: oracle/security/o3logon/O3LoginProtocolHelper.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: j0LqttJlzSbtOHIkqTBfUB5Bd28=
+MD5-Digest: Bbl2ml54ub1xNQNMtQFeeg==
+
+Name: oracle/security/o3logon/O3LoginClientHelper.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: bGYEV9e49nNb1tBQ7BFXQiBO8oM=
+MD5-Digest: hvoqfL4syqwChVof/Mvuew==
+
+Name: oracle/security/o3logon/C1.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8+kpgGMq6Iw5f5y/W2vnN1isnZU=
+MD5-Digest: y1HzXAcjXmtS+NBWAfibbQ==
+

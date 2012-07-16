@@ -1,0 +1,170 @@
+/********************************************************************
+*  PassengerGUI.java       
+*  @author Lewis/Chase
+*
+*  Demonstrates a simple GUI in Java
+********************************************************************/
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class PassengerGUI extends JPanel
+{
+  private JButton clearButton;
+  private JButton quitButton;
+  private JButton saveButton;
+  private JTextArea PassengerAddress;
+  private static final JLabel NameLabel = new JLabel("Name:");
+  private JTextArea PassengerInfo;
+  private static final JLabel InfoLabel = new JLabel("Info:");
+  private JTextField PassengerName;
+  private static final JLabel AddressLabel = new JLabel("Address:");
+  private JTextField PassengerPhone;
+  private static final JLabel PhoneLabel = new JLabel("Phone:");
+  private JPanel panel1, panel2, panel3;
+  private JPanel namePanel, addressPanel, phonePanel, infoPanel;
+  private Passenger  myPassenger;
+  
+  /*******************************************************************
+    Sets up the GUI.
+  *******************************************************************/
+  public PassengerGUI()
+  {
+	// initialize the passenger
+	myPassenger = new Passenger();
+	  
+	// create the clear and save buttons and attache them to action listeners
+    clearButton = new JButton("Clear");
+    clearButton.addActionListener(new clearListener());
+	saveButton = new JButton("Save");
+	saveButton.addActionListener(new saveListener());
+    
+	// set up the text fields and text areas for display  
+    PassengerName = new JTextField(20);
+    PassengerName.setEditable(true);
+    PassengerAddress = new JTextArea(6, 20);
+    PassengerAddress.setMargin(new Insets(5,5,5,5));
+    PassengerAddress.setEditable(true);
+	PassengerInfo = new JTextArea(6, 20);
+	PassengerInfo.setMargin(new Insets(5,5,5,5));
+	PassengerInfo.setEditable(false);
+    PassengerPhone = new JTextField(10);
+    PassengerPhone.setEditable(true);
+  
+	// set up the label and name field combination  
+	namePanel = new JPanel();
+	namePanel.setLayout(new BorderLayout());
+	namePanel.add(NameLabel, BorderLayout.WEST);
+	namePanel.add(PassengerName, BorderLayout.EAST);
+	
+	// set up the label and address field combination  
+	addressPanel = new JPanel();
+	addressPanel.setLayout(new BorderLayout());
+	addressPanel.add(AddressLabel, BorderLayout.WEST);
+	addressPanel.add(PassengerAddress, BorderLayout.EAST);
+	  
+	// set up the label and phone number combination  
+	phonePanel = new JPanel();
+	phonePanel.setLayout(new BorderLayout());
+	phonePanel.add(PhoneLabel, BorderLayout.WEST);
+	phonePanel.add(PassengerPhone, BorderLayout.EAST);
+	  
+	// add the name, address, and phone panels to panel1  
+	panel1 = new JPanel();
+	panel1.setLayout(new BorderLayout());
+    panel1.add(namePanel, BorderLayout.NORTH);
+    panel1.add(addressPanel, BorderLayout.CENTER);
+	panel1.add(phonePanel, BorderLayout.SOUTH);
+	  
+	// set up the label and display area combination
+	infoPanel = new JPanel();
+	infoPanel.setLayout(new BorderLayout());
+	infoPanel.add(InfoLabel, BorderLayout.WEST);
+	infoPanel.add(PassengerInfo, BorderLayout.EAST);
+	
+	// set up a panel with the clear and save buttons
+	panel2 = new JPanel();
+	panel2.setLayout(new BorderLayout());
+    panel2.add(clearButton, BorderLayout.EAST);
+    panel2.add(saveButton, BorderLayout.WEST);
+
+	// merge panels 1 and 2 into a single panel
+	panel3 = new JPanel();
+	panel3.setLayout(new BorderLayout());
+	panel3.add(panel1, BorderLayout.NORTH);
+	panel3.add(panel2, BorderLayout.SOUTH);
+	  
+    // add panel3 and the infoPanel to the frame
+    setLayout(new BorderLayout());
+	add(panel3, BorderLayout.WEST);
+    add(infoPanel, BorderLayout.EAST);
+    
+  
+    setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
+  }
+  
+	
+  /*******************************************************************
+    Creates and displays the main application frame.
+  *******************************************************************/
+
+	public void display()
+  {
+    JFrame frame = new JFrame("Passenger Information ");
+
+    frame.setContentPane(this);
+    
+    frame.pack();
+    frame.setVisible(true);
+	myPassenger.setName("");
+                myPassenger.setAddress("");
+                myPassenger.setPhone("");
+  }
+
+/** 
+The setPassenger method jpb is to set the passenger equal to its self.
+*/
+ public void setPassenger(Passenger pas)
+        {
+                myPassenger=pas;
+        }
+
+  /*******************************************************************
+    Represents an action listener for the clear button.
+  *******************************************************************/
+  private class clearListener implements ActionListener
+  {
+    /***************************************************************
+      clears the contents of the text fields and the Passenger attributes
+    ***************************************************************/
+    public void actionPerformed (ActionEvent event)
+    {
+		PassengerName.setText("");
+		PassengerAddress.setText("");
+		PassengerPhone.setText("");
+		myPassenger.setName("");
+		myPassenger.setAddress("");
+		myPassenger.setPhone("");
+		
+		PassengerInfo.setText(myPassenger.toString());
+    }
+  }
+
+  /*******************************************************************
+    Represents an action listener for the save button.
+  *******************************************************************/
+  private class saveListener implements ActionListener
+  {
+    /***************************************************************
+      set the passenger attributes to the values of the text fields
+    ***************************************************************/
+    public void actionPerformed (ActionEvent event)
+    {
+		myPassenger.setName(PassengerName.getText());
+		myPassenger.setAddress(PassengerAddress.getText());
+		myPassenger.setPhone(PassengerPhone.getText());
+		PassengerInfo.setText(myPassenger.toString());
+    }
+  }
+}

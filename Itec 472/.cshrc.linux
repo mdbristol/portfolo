@@ -1,0 +1,143 @@
+#    Radford University 
+#    Default .cshrc file 
+#    Created June 1, 1995 
+#    Modified August 19, 2003
+#    Mofified August 1, 2006
+#    This file is used to set all of the enviromental variables when the
+#    user logs in.
+#
+
+#
+#  Set the default editor.
+#  (To use vi, uncomment the two lines for vim)
+#
+
+setenv EDITOR  /usr/bin/vim
+setenv VISUAL  /usr/bin/vim
+
+set path=(/usr/local/gnu/bin)             # GNU binaries
+set path=($path /software/unix/bin)       # IT binaries
+set path=($path /usr/local/bin)           # Local binaries
+set path=($path /usr/local/java/bin)      # JAVA binaries
+set path=($path /bin)                     # Linux binaries
+set path=($path /usr/bin)                 # Linux binaries
+set path=($path /usr/X11R6/bin)           # X11 binaries
+set path=($path $home/bin)                # User binaries
+set path=($path . )                       # Current Directory 
+
+#
+#  Set the search path for libraries.
+#
+                                     
+setenv LD_LIBRARY_PATH /usr/local/gnu/lib:/software/unix/lib
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":/usr/local/lib"
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":/usr/java/lib"
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":/lib"
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":/usr/lib"
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":/usr/X11R6/lib"
+
+#
+# Set the search path for manual pages
+#
+
+setenv MANPATH /usr/local/gnu/man:/usr/share/man:/software/unix/man
+setenv MANPATH $MANPATH":/usr/local/man:/usr/java/man"
+setenv MANPATH $MANPATH":/usr/man:/usr/X11R6/man"
+
+
+#
+#  Other environment variable settings
+#
+setenv HOST `hostname`
+setenv USER `whoami`
+setenv OPENWINHOME /usr/X11R6
+setenv SCREENDIR ~$USER/.screens
+setenv GZIP "-9 -v"
+
+limit coredumpsize 0
+
+#
+# prompt for autocorrection
+#
+set prompt3="I think that should have been %R, is that right? (y/n/e)"
+                                                                               
+unset autologout     # Do not automatically log out after 60 minutes.
+set filec            # file completion use tab for this
+set notify           # notify of job completion
+set noclobber        # do not automatically overwrite
+set nonomatch        # no error on invalid file substitution
+set savehist=100     # store the past X commands on logoff
+set history=200      # keep track of last X commands
+set fignore=(.o)     # Lists file name suffixes to be  ignored  by completion.
+set ampm             # all times are shown in 12-hour AM/PM format
+set autocorrect      # automatically correct spelling of commands
+set autoexpand       # expand history
+set autolist         # show possibilities if ambiguous file completion
+set cdpath=(. .. ~)  # search path for cd command
+set complete         # ignore case on file completion
+set correct=cmd      # correct spelling of commands only
+set histdup=erase    # only save unique history events
+set inputmode=insert # set command line editing default to insert
+
+set listlinks        # show the type of file to which each symbolic link points
+set matchbeep=nomatch    # only beep if no match is found on file completion
+set rmstar           # ask before making a mess
+set symlinks=ignore  # don't undo links for cd ..
+
+complete cd 'n/*/d/' # Only show completion for directories on cd
+                                                     
+alias mail elm
+alias rm 'rm -i'
+alias ls 'ls -F'
+alias rs 'eval `resize`'        # Resize the screen if the screen gets out of
+
+#
+#  Set the users prompt.
+#
+#alias cd 'cd \!*; set prompt = "$HOST @ $cwd > "'	# tcsh supports this directly
+#alias pwd 'cd . ; echo $cwd'	# Command exists on Linux systems
+set prompt="%m @ %/ %# " 
+
+#
+#  Default terminal type settings.  Use these to reset your screen.
+#
+alias vt100 'stty rows 24; setenv TERM vt100'
+alias ruterm 'stty rows 24; setenv TERM ruterm'  # No such Terminal exists anymore
+                                               
+                                               
+#
+#  DOS style commands
+#  Allow for all common DOS commands.  This just remaps them to their
+#  UNIX equivalent
+#
+#       DOS Command     UNIX Command
+#       ===========     ============
+alias   cls             clear
+alias   dir             ls -l
+alias   dir/w           ls -FC
+alias   type            cat
+alias   del             rm -i
+alias   erase           rm
+alias   copy            cp
+alias   xcopy           cp
+alias   help            man
+alias   edit            vi
+alias   rd              rmdir
+alias   md              mkdir
+alias   ren             mv
+alias   rename          mv
+alias   print           lpr
+alias   pc              pc -L
+                             
+#
+# change protection so nobody else can read files by default
+#
+umask 077
+         
+#
+# Change to the users's home directory.
+# Should never do this in .cshrc, (shouldn't be necessary anyway)
+# will break shell scripts that expect to start in current dir
+#
+#cd
+

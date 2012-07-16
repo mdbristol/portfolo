@@ -1,0 +1,97 @@
+#    Radford University
+#    Default .login file
+#    June 1, 1995
+#
+#    This file is executed when you log in and allows the user to enter
+#    the proper terminal type.  
+#    
+
+
+# *********  SECTION FOR SUN WORKSTATION USERS ONLY *********
+#
+#  See where the user is logging in from and if they are logging in from
+#  another machine, set the display to that machine.
+#
+set me = `who am i`
+if ($#me == 6) then
+     setenv DISPLAY `echo $me[6] | sed 's/(\([^:).]*\)\([^)]*\))/\1:0.0/'`
+     if (($DISPLAY == "unix:0.0") || ($DISPLAY == ":0.0")) then
+        setenv DISPLAY "${HOST}:0.0"
+     endif
+else
+        setenv DISPLAY `hostname`:0.0
+endif
+
+#
+#  If the user is logging in from the console of a Sun, automatically
+#  start X-Windows
+#
+if (`tty` == "/dev/console") then
+	biff y
+	mesg y
+	setenv TERM sun
+	set clobber
+	echo "Five second delay before starting X-Windows..."
+	sleep 5 
+        xinit
+        kbd_mode -a
+	logout
+endif
+
+# ^^^^^^^^^                                               ^^^^^^^^^
+# *********  ABOVE SECTION FOR SUN WORKSTATION USERS ONLY *********
+
+#
+#  Query the computer for the proper teriminal type and then query the
+#  user for their terminal type.
+#
+setenv TERM `tset -Q -I -`
+
+#
+#  Based on the above information, try to determine the proper terminial
+#  type for the user.
+#
+if ($TERM == "vs") then
+	setenv TERM vt100		# Set invalid "vs" type to vt100
+endif
+if ($TERM == "vs100") then
+	setenv TERM xterm		# x11r6 sometimes returns vs100 as xterm
+endif
+if ($TERM == "dec-vt100") then       
+	setenv TERM vt100		# Set NCSA Telenet to vt100
+endif
+if ($TERM == "network") then
+	setenv TERM ruterm
+endif
+if ($TERM == "vt102") then
+	setenv TERM ruterm
+endif
+if ($TERM == "vt220") then
+	setenv TERM ruterm
+endif
+if ($TERM == "") then
+	setenv TERM ruterm
+endif
+
+#
+#  Ask the user for a terminal type.  (provide a default answer)
+#
+echo -n "TERM = ($TERM) " 
+setenv NEWTERM $< 		
+
+if ("$NEWTERM" == "") then
+	setenv TERM $TERM
+else
+	setenv TERM $NEWTERM
+endif
+
+#
+#  Clear the screen and display current termiminal type.
+#
+clear
+echo "TERM set to $TERM "
+
+#
+#  Check to see if there is any new news in the RU newsgroups.
+#
+#rn -c ru.\*

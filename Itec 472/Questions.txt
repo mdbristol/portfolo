@@ -1,0 +1,12 @@
+https://github.com/openstack/python-novaclient 
+
+suspend the server
+openstack credentials
+
+Specific Extra Features
+	-SSH
+	-Library of Tags (Groups)
+
+amazon tag equivalent (keypair, secgroup)
+extra source on python novaclient api
+rackspace or openstack novaclient

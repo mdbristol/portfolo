@@ -1,0 +1,53 @@
+<?xml version = ?1.0? encoding = ?utf-8? ?>
+<!DOCTYPE html PUBLIC ?-//W3C//DTD XHTML 1.0 Strict//EN?
+     http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+
+
+<html>
+<head>
+<title>Assignment #3</title>
+</head>
+<body>
+<script language="JavaScript">
+var run = new Boolean(true);
+word = prompt("Enter a word(no blanks or punctuation)", "");
+while(run)
+{
+if(word.match(/[^a-z]/))
+{
+word = prompt(word + " contains a blank, punctuation or a non-letter, please enter again", "");
+}
+else
+{
+document.write("<h1>Word Checker</h1>",
+"<h2>ITEC 225 - Assignment #3</h2>",
+"<p>The word you entered is <b>" + word);
+document.write("</b></p><p>Does this word contain two adjacent vowels?")
+if(word.match(/[aeiou]{2}/))
+{
+document.write("<br><b>YES</b> they are <b>" + word.match(/[aeiou]{2}/));
+}
+else
+{
+document.write("<br><b>NO</b>");
+}
+document.write("</b></p><p>Does this word begin with a vowel?");
+if((word.charAt(0) == "a") || 
+(word.charAt(0) == "e") ||
+(word.charAt(0) == "i") ||
+(word.charAt(0) == "o") ||
+(word.charAt(0) == "u"))
+{
+document.write("<br><b>YES</b>");
+}
+else
+{
+document.write("<br><b>NO</b>");
+}
+document.write("<p>The word has <b>" + word.length + "</b> letters");
+run = false;
+}
+}
+</script> 
+</body>
+</html> 

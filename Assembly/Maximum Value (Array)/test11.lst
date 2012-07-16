@@ -1,0 +1,72 @@
+(ARCTools Version 2.1.2)
+ HexLoc     DecLoc    MachWord   Label        Instruction                Comment
+00000000  0000000000  00000000  max:                                     
+00000004  0000000004  00000000  temp:                                    
+                                              .org 2048                  
+                                                                         
+                                                                         
+                                              .equ 4000                  !Address of the array a
+                                                                         
+                                                                         !register1 loads the starting address into register 1 
+                                                                         !register2 loads the size of the array 
+                                                                         !register3 max_value
+                                                                         !register4  pointer 
+                                                                         !register5 holds an temp element 
+                                                                         !register6 holds nothing 
+                                                                         
+00000800  0000002048  c200285c                ld [2140], %r1             !load the starting address into register 1 
+00000804  0000002052  c4002858                ld [2136], %r2             !l0ad the size of the array into register 2
+00000808  0000002056  8688c000                andcc %r3, %r0, %r3        !equals 0 
+0000080c  0000002060  c6004000                ld %r1, %r3                !loads the value at address 4000 into register 3 
+00000810  0000002064  c6202000                st %r3, [0]                !sets the first place in the array to the max value 
+00000814  0000002068  88806004                addcc %r1, 4, %r4          
+00000818  0000002072  80888002  loop:         andcc %r2, %r2, %r0        !If the end of the array has been reached 
+0000081c  0000002076  0280000d                be 13                      ! when length = 0 
+00000820  0000002080  ca010000                ld %r4, %r5                
+00000824  0000002084  ca202004                st %r5, [4]                
+00000828  0000002088  80a0c005                subcc %r3, %r5, %r0        
+0000082c  0000002092  0c800005                bneg 5                     !if negative value then new max found 
+00000830  0000002096  8480bfff  afterswap:    addcc %r2, -1, %r2         !Decrement the array length 
+00000834  0000002100  88812004                addcc %r4, 4, %r4          !gets the next array element 
+00000838  0000002104  c6002000                ld [0], %r3                
+                                                                         
+0000083c  0000002108  10bffff7                ba -9                      
+                                                                         
+00000840  0000002112            swap:                                    
+                                                                         
+00000844  0000002116  c6202004                st %r3, [4]                
+00000848  0000002120  ca202000                st %r5, [0]                
+                                                                         
+0000084c  0000002124  10bffff9                ba -7                      !supposed to jump back tp where called 
+                                                                         
+                                                                         
+                                                                         
+00000850  0000002128  c6202000  done:         st %r3, [0]                
+00000854  0000002132  81c3e004                jmpl %r15, 4, %r0          
+                                                                         
+00000858  0000002136  00000009  length:                                  !length + 4 will find the next place in array 
+0000085c  0000002140  00000fa0  address:                                 
+                                                                         
+                                              .org a_start               
+                                                                         
+00000fa0  0000004000  00000001  a:                                       
+00000fa4  0000004004  00000016                                           
+00000fa8  0000004008  0000000a                                           
+00000fac  0000004012  00000005                                           
+00000fb0  0000004016  00000003                                           
+00000fb4  0000004020  0000000b                                           
+00000fb8  0000004024  0000002d                                           
+00000fbc  0000004028  00000064                                           
+00000fc0  0000004032  00000159                                           
+
+--- Symbol Table ---
+length: 2136
+swap: 2112
+done: 2128
+loop: 2072
+max: 0
+a: 4000
+address: 2140
+a_start: 4000
+temp: 4
+afterswap: 2096

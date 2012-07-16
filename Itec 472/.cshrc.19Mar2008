@@ -1,0 +1,152 @@
+#    Radford University 
+#    Default .cshrc file 
+#    June 1, 1995 
+#
+#    This file is used to set all of the enviromental variables when the
+#    user logs in.
+#
+
+#
+#  Set the default editor.
+#  (To use vi, uncomment the two lines for vim)
+#
+setenv EDITOR  "/usr/local/bin/pico -t"
+setenv VISUAL  "/usr/local/bin/pico -t"
+
+#setenv EDITOR  /usr/local/bin/vim
+#setenv VISUAL  /usr/local/bin/vim
+
+#
+#  Set the default search path for binaries.  
+#
+set path=(/usr/local/gnu/bin )         # GNU Binaries
+set path=($path /usr/bin )             # Default Solaris Binaries
+set path=($path /usr/sbin )            # Default System Binaries
+set path=($path /usr/local/bin )       # local Binaries
+set path=($path /usr/openwin/bin )     # Openwindows
+set path=($path /usr/local/X11/bin )   # X11 Binaries
+set path=($path /software/unix/bin )   # Third Party Software
+set path=($path /usr/sbin )            # System Scripts
+set path=($path /usr/ccs/bin )         # yacc, make, other compiler info
+set path=($path /opt/SUNWspro/bin )    # Sun C compiler
+set path=($path $home/bin )            # bin directory in users home
+set path=($path /usr/ucb )             # Old BSD Binaries
+set path=($path /usr/local/TEX/bin )   # TeX and LaTeX Stuff
+set path=($path . )                    # Current Directory
+
+
+#
+#  Set the search path for libraries.
+#
+setenv LD_LIBRARY_PATH /opt/SUNWspro/lib:/opt/SUNWspro/SC3.0/lib
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":/usr/openwin/lib:/usr/dt/lib:/usr/local/X11/lib"
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":/usr/lib:/usr/local/lib:/usr/ucblib"
+
+
+#
+#  Set the search path for manual pages.
+#
+setenv MANPATH /usr/local/gnu/man:/usr/share/man:/usr/local/man
+setenv MANPATH $MANPATH":/usr/local/X11/man:/usr/openwin/man"
+setenv MANPATH $MANPATH":/software/unix/man"
+setenv MANPATH $MANPATH":/opt/SUNWspro/man"
+setenv MANPATH $MANPATH":/usr/local/TEX/man"
+
+#
+#  Other environment variable settings
+#
+setenv HOST `hostname`
+setenv USER `whoami`
+setenv OPENWINHOME /usr/openwin 
+setenv SCREENDIR ~$USER/.screens
+setenv GZIP "-9 -v"
+
+limit coredumpsize 0
+limit filesize 10m
+
+#
+# prompt for autocorrection
+#
+set prompt3="I think that should have been %R, is that right? (y/n/e)"
+
+unset autologout     # Do not automatically log out after 60 minutes.
+set filec            # file completion use tab for this
+set notify           # notify of job completion
+set noclobber        # do not automatically overwrite
+set nonomatch        # no error on invalid file substitution
+set savehist=100     # store the past X commands on logoff
+set history=200      # keep track of last X commands
+set fignore=(.o)     # Lists file name suffixes to be  ignored  by completion.
+set ampm             # all times are shown in 12-hour AM/PM format
+set autocorrect      # automatically correct spelling of commands
+set autoexpand       # expand history
+set autolist         # show possibilities if ambiguous file completion
+set cdpath=(. .. ~)  # search path for cd command
+set complete         # ignore case on file completion
+set correct=cmd      # correct spelling of commands only
+set histdup=erase    # only save unique history events
+set inputmode=insert # set command line editing default to insert
+
+set listlinks        # show the type of file to which each symbolic link points
+set matchbeep=nomatch# only beep if no match is found on file completion
+set rmstar           # ask before making a mess
+set symlinks=ignore  # don't undo links for cd ..
+
+
+
+complete cd 'n/*/d/' # Only show completion for directories on cd
+
+alias mail elm
+alias rm 'rm -i'
+alias ls 'ls -F'
+alias rs 'eval `resize`'        # Resize the screen if the screen gets out of 
+                                # whack
+
+
+#
+#  Set tye users prompt.
+#
+alias cd 'cd \!*; set prompt = "$HOST @ $cwd > "'
+alias pwd 'cd . ; echo $cwd'
+
+#
+#  Default terminal type settings.  Use these to reset your screen.
+#
+alias vt100 'stty rows 24; setenv TERM vt100'
+alias ruterm 'stty rows 24; setenv TERM ruterm'
+
+
+#
+#  DOS style commands
+#  Allow for all common DOS commands.  This just remaps them to their
+#  UNIX equivalent
+#
+#       DOS Command     UNIX Command
+#       ===========     ============
+alias   cls             clear
+alias   dir             ls -l
+alias   dir/w           ls -FC
+alias   type            cat
+alias   del             rm -i
+alias   erase           rm
+alias   copy            cp
+alias   xcopy           cp
+alias   help            man
+alias   edit            vi
+alias   rd              rmdir
+alias   md              mkdir
+alias   ren             mv
+alias   rename          mv
+alias   print           lpr
+alias   pc 		pc -L
+
+#
+# change protection so nobody else can read files by default
+#
+umask 077
+
+#
+# Change to the users's home directory.
+#
+cd
+

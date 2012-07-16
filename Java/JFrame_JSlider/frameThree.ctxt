@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=frameThree()
+comment0.text=\r\n\ Creates\ frame3\ \r\n
+comment1.params=something
+comment1.target=void\ setSubjectFrame(frameTwo)
+comment2.params=e
+comment2.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+numComments=3

@@ -1,0 +1,36 @@
+/** 
+Michael Bristol
+
+SystemTimer
+
+*/
+
+import com.dnsalias.java.timer.AdvancedTimer;
+
+
+public class SystemTimer
+{
+
+	private static AdvancedTimer timer = new AdvancedTimer();
+	private static long timerTicksPerSecond;
+
+	static
+	{
+		timer.start();
+		timerTicksPerSecond= AdvancedTimer.getTicksPerSecond();
+	}
+
+	public static long getTime()
+	{
+
+
+	return (timer.getClockTicks() * 1000)/timerTicksPerSecond;
+
+	}
+
+
+	public static void sleep(long duration)
+	{
+		timer.sleep((duration * timerTicksPerSecond) / 1000);
+	}
+}

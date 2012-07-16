@@ -1,0 +1,233 @@
+Help on method delete_meta in module novaclient.v1_1.servers:
+
+delete_meta(self, server, keys) method of novaclient.v1_1.servers.ServerManager instance
+oks(cls, hook_type, *args, **kwargs) method of __builtin__.type instance
+
+None
+Help on method set_meta in module novaclient.v1_1.servers:
+
+set_meta(self, server, metadata) method of novaclient.v1_1.servers.ServerManager instance
+    Set a servers metadata
+    :param server: The :class:`Server` to add metadata to
+    :param metadata: A dict of metadata to add to the server
+
+    Delete metadata from an server
+    :param server: The :class:`Server` to add metadata to
+    :param keys: A list of metadata keys to delete from the server
+
+None
+Help on method find in module novaclient.base:
+
+find(self, **kwargs) method of novaclient.v1_1.servers.ServerManager instance
+    Find a single item with attributes matching ``**kwargs``.
+    
+    This isn't very efficient: it loads the entire list then filters on
+    the Python side.
+
+None
+Help on method findall in module novaclient.base:
+
+findall(self, **kwargs) method of novaclient.v1_1.servers.ServerManager instance
+    Find all items with attributes matching ``**kwargs``.
+    
+    This isn't very efficient: it loads the entire list then filters on
+    the Python side.
+
+None
+Help on class Server in module novaclient.v1_1.servers:
+
+class Server(novaclient.base.Resource)
+ |  Method resolution order:
+ |      Server
+ |      novaclient.base.Resource
+ |      __builtin__.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __repr__(self)
+ |  
+ |  actions(self)
+ |      Actions -- Retrieve server actions.
+ |  
+ |  add_fixed_ip(self, network_id)
+ |      Add an IP address on a network.
+ |      
+ |      :param network_id: The ID of the network the IP should be on.
+ |  
+ |  add_floating_ip(self, address)
+ |      Add floating IP to an instance
+ |      
+ |      :param address: The ip address or FloatingIP to add to the instance
+ |  
+ |  change_password(self, password)
+ |      Update the password for a server.
+ |  
+ |  confirm_resize(self)
+ |      Confirm that the resize worked, thus removing the original server.
+ |  
+ |  create_image(self, image_name, metadata)
+ |      Create an image based on this server.
+ |      
+ |      :param image_name: The name to assign the newly create image.
+ |      :param metadata: Metadata to assign to the image.
+ |  
+ |  delete(self)
+ |      Delete (i.e. shut down and delete the image) this server.
+ |  
+ |  diagnostics(self)
+ |      Diagnostics -- Retrieve server diagnostics.
+ |  
+ |  get_console_output(self, length=None)
+ |      Get text console log output from Server.
+ |      
+ |      :param length: The number of lines you would like to retrieve (as int)
+ |  
+ |  migrate(self)
+ |      Migrate a server to a new host in the same zone.
+ |  
+ |  pause(self)
+ |      Pause -- Pause the running server.
+ |  
+ |  reboot(self, type='SOFT')
+ |      Reboot the server.
+ |      
+ |      :param type: either :data:`REBOOT_SOFT` for a software-level reboot,
+ |                   or `REBOOT_HARD` for a virtual power cycle hard reboot.
+ |  
+ |  rebuild(self, image, password=None)
+ |      Rebuild -- shut down and then re-image -- this server.
+ |      
+ |      :param image: the :class:`Image` (or its ID) to re-image with.
+ |      :param password: string to set as password on the rebuilt server.
+ |  
+ |  remove_fixed_ip(self, address)
+ |      Remove an IP address.
+ |      
+ |      :param address: The IP address to remove.
+ |  
+ |  remove_floating_ip(self, address)
+ |      Add floating IP to an instance
+ |      
+ |      :param address: The ip address or FloatingIP to add to remove
+ |  
+ |  rescue(self)
+ |      Rescue -- Rescue the problematic server.
+ |  
+ |  resize(self, flavor)
+ |      Resize the server's resources.
+ |      
+ |      :param flavor: the :class:`Flavor` (or its ID) to resize to.
+ |      
+ |      Until a resize event is confirmed with :meth:`confirm_resize`, the old
+ |      server will be kept around and you'll be able to roll back to the old
+ |      flavor quickly with :meth:`revert_resize`. All resizes are
+ |      automatically confirmed after 24 hours.
+ |  
+ |  resume(self)
+ |      Resume -- Resume the suspended server.
+ |  
+ |  revert_resize(self)
+ |      Revert a previous resize, switching back to the old server.
+ |  
+ |  suspend(self)
+ |      Suspend -- Suspend the running server.
+ |  
+ |  unpause(self)
+ |      Unpause -- Unpause the paused server.
+ |  
+ |  unrescue(self)
+ |      Unrescue -- Unrescue the rescued server.
+ |  
+ |  update(self, name=None)
+ |      Update the name or the password for this server.
+ |      
+ |      :param name: Update the server's name.
+ |      :param password: Update the root password.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  networks
+ |      Generate a simplified list of addresses
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from novaclient.base.Resource:
+ |  
+ |  __eq__(self, other)
+ |  
+ |  __getattr__(self, k)
+ |  
+ |  __init__(self, manager, info, loaded=False)
+ |  
+ |  get(self)
+ |  
+ |  is_loaded(self)
+ |  
+ |  set_loaded(self, val)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from novaclient.base.Resource:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+None
+Help on method run_hooks in module novaclient.utils:
+
+run_hooks(cls, hook_type, *args, **kwargs) method of __builtin__.type instance
+
+None
+Help on method set_meta in module novaclient.v1_1.servers:
+
+set_meta(self, server, metadata) method of novaclient.v1_1.servers.ServerManager instance
+    Set a servers metadata
+    :param server: The :class:`Server` to add metadata to
+    :param metadata: A dict of metadata to add to the server
+
+None
+Help on method uuid_cache in module novaclient.base:
+
+uuid_cache(*args, **kwds) method of novaclient.v1_1.servers.ServerManager instance
+    Cache UUIDs for bash autocompletion.
+    
+    The UUID cache works by checking to see whether an ID is UUID-like when
+    we create a resource object (e.g. a Image or a Server), and if it is,
+    we add it to a local cache file.  We maintain one cache file per
+    resource type so that we can refresh them independently.
+    
+    A resource listing will clear and repopulate the UUID cache.
+    
+    A resource create will append to the UUID cache.
+    
+    Delete is not handled because listings are assumed to be performed
+    often enough to keep the UUID cache reasonably up-to-date.
+
+None
+Help on method write_uuid_to_cache in module novaclient.base:
+
+write_uuid_to_cache(self, uuid) method of novaclient.v1_1.servers.ServerManager instance
+
+
+uuid_cache(*args, **kwds) method of novaclient.v1_1.servers.ServerManager instance
+    Cache UUIDs for bash autocompletion.
+
+    The UUID cache works by checking to see whether an ID is UUID-like when
+    we create a resource object (e.g. a Image or a Server), and if it is,
+    we add it to a local cache file.  We maintain one cache file per
+    resource type so that we can refresh them independently.
+
+    A resource listing will clear and repopulate the UUID cache.
+
+    A resource create will append to the UUID cache.
+
+    Delete is not handled because listings are assumed to be performed
+    often enough to keep the UUID cache reasonably up-to-date.
+
+None
+Help on method write_uuid_to_cache in module novaclient.base:
+
+write_uuid_to_cache(self, uuid) method of novaclient.v1_1.servers.ServerManager instance
+uone

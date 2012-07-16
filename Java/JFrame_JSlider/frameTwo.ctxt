@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=f
+comment0.target=void\ setFrame1(frameOne)
+comment1.params=f
+comment1.target=void\ setFrame3(frameThree)
+comment2.params=
+comment2.target=frameTwo()
+comment3.params=
+comment3.target=java.lang.String\ getCurrentShape()
+comment4.params=
+comment4.target=java.lang.String\ getCurrentColor()
+comment5.params=
+comment5.target=java.lang.String\ getCurrentEvent()
+comment6.params=
+comment6.target=java.lang.String\ getCurrentMove()
+comment7.params=
+comment7.target=java.lang.String\ getOrgObject()
+numComments=8

@@ -1,0 +1,73 @@
+<?xml version = ?1.0? encoding = ?utf-8? ?>
+<!DOCTYPE html PUBLIC ?-//W3C//DTD XHTML 1.0 Strict//EN?
+     http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+
+<html>
+	<head><title> javaPrompt </title>
+		
+		
+	</head>
+	<body>
+	
+		<script type = "text/javascript" scr = "javaPrompt.js">
+		
+	
+		
+		var run = new Boolean(true);
+		var text = prompt(" Enter a text(no blanks or punctuation): \n","");
+		while(run)
+		{
+			if(text.match(/[^a-z]/))
+					{
+					text.prompt(text + "contains a blank, punctuation or a non-letter, please enter again","");
+					}
+			else
+			{
+				document.write("<caption><h1> text Checker  <br /> Itec 225- Assignment 3<br /></h1> </caption><br />");
+				document.write("The text you have enter is: " ,"<b>", text, "</b>" );
+		
+		
+				document.write("</br>Does the text contain two adjacent vowels?");
+					if(text.match(/[aeiou]{2}/))
+						{
+						document.write("<br><b>YES</b> they are <b>" + text.match(/[aeiou]{2}/));
+						}
+					else
+						{
+						document.write("<b> NO </b>");
+				
+						}
+					document.write("</br>Does this text begin with a vowel?");
+						if((text.charAt(0) == "a") || 
+						(text.charAt(0) == "e") ||
+						(text.charAt(0) == "i") ||
+						(text.charAt(0) == "o") ||
+						(text.charAt(0) == "u"))
+							{
+					
+							document.write("<b> YES </b>");
+							}
+								else
+									{
+										document.write("<b> NO </b>");
+									}
+					
+			
+
+							document.write("</br> The text has ", "<b>", text.length ,"</b> letters");
+							run = false;
+			}
+		}	
+		
+		
+		
+		</script>
+	
+	
+	
+	
+	
+	</body>
+	
+	
+</html>

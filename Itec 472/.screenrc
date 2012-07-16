@@ -1,0 +1,12 @@
+fit
+startup_message off
+multiuser on
+hardstatus alwayslastline 
+hardstatus string '%{= kw}[ %{r}%H %{w}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n %f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{w}][%{r} %m-%d %{r}%c %{w}]'
+defscrollback 5000
+bindkey "^[Od" prev
+bindkey "^[Oc" next
+termcapinfo xterm ti@:te@
+vbell off
+screen -t bash 2
+screen -t vim 1

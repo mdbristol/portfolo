@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=aWidth
+comment0.target=CarIcon(int)
+comment0.text=\r\n\ \ \ \ \ \ Constructs\ a\ car\ of\ a\ given\ width.\r\n\ \ \ \ \ \ @param\ width\ the\ width\ of\ the\ car\r\n
+comment1.params=x
+comment1.target=void\ setIconWidth(int)
+comment2.params=
+comment2.target=int\ getIconWidth()
+comment3.params=
+comment3.target=int\ getIconHeight()
+comment4.params=c
+comment4.target=void\ setColor(java.awt.Color)
+comment5.params=
+comment5.target=java.awt.Color\ getColor()
+comment6.params=c\ g\ x\ y
+comment6.target=void\ paintIcon(java.awt.Component,\ java.awt.Graphics,\ int,\ int)
+numComments=7

@@ -1,0 +1,121 @@
+/** 
+ * Michael Bristol
+ * 2/3/10
+ *
+ * Plane Class
+ *
+ * This class is meant to run all the methods that the user can choose from. The plane class will take in objects from other classes and also will make the 2d array that is going to hold objects of Passengers.
+ *
+ */
+
+import java.util.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class cipherControl 
+{
+	private int inputDigits[];
+	private int checksum;
+	private Random rand;
+	private String result;
+	private String inputValue;
+	private int value;
+	private int lastinputDigits[];
+	private int count;
+
+
+public cipherControl()
+{
+	value=0;
+	inputValue="";
+	result="";
+	rand=new Random();
+
+}
+
+public void checkInput()
+{
+
+inputValue= JOptionPane.showInputDialog("Enter a length between 2-16 that is an even number for the desired length of your key");
+
+value=Integer.parseInt(inputValue);///parses the inputValue to an Integer
+
+	while(value %2 !=0 || value < 2 || value > 16)//if true run an error screen
+	{
+		inputValue= JOptionPane.showInputDialog("You have not reached the required conditions please enter again an length between 2-16 that is even.");
+		value=Integer.parseInt(inputValue);
+	}
+}
+
+public int getCheckSum()
+{
+
+checksum=rand.nextInt(15)+2;//generates a random number
+
+return checksum;
+}
+
+
+public void firstHalf()
+{
+	inputDigits = new int[value];
+	int randomC = 0;
+	int min = 0;
+	int max = 0;
+	for (int i=0; i<value-1; i++)
+	{
+		if(checksum >=10)
+		{
+			max=9;
+			min= checksum-max;
+			randomC= rand.nextInt(max-min +1)+ min;
+			inputDigits[i]=randomC;
+		}
+		else
+		{
+			randomC=rand.nextInt(checksum);
+			inputDigits[i]=randomC;
+		}
+	}
+}
+
+
+
+
+public void secondHalf()
+{
+	lastinputDigits= new int[value/2];
+	for(int i =0; i<value/2; i++)
+	{
+		lastinputDigits[i]= checksum - inputDigits[i];
+	}
+}
+
+public void full()
+{
+	count= (value/2)-1;
+	for(int i=(value/2); i<value; i++)
+	{
+		inputDigits[i]=lastinputDigits[count];
+		count--;
+	}
+}
+
+
+public String toString()
+{
+	for(int i=0; i<value; i++)
+	{
+		result = result + inputDigits[i] + "";
+	}
+	return result;
+}
+public void clear()
+{
+	result= "";
+}
+
+
+
+}

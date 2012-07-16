@@ -1,0 +1,200 @@
+#+1315511241
+cd dynamic_php
+#+1315511245
+cd wordpress
+#+1315511278
+wp-admin/
+#+1315511355
+vim wp-settings.php
+#+1315511402
+vim wp-config.php
+#+1315511532
+cd wordpress/
+#+1315511561
+cd wp-includes/
+#+1315511653
+cd wp-admin
+#+1315511666
+vim index.php
+#+1315511688
+vim setup-config.php
+#+1315511717
+vim network.php
+#+1320873500
+php_permissions.sh
+#+1322599607
+tar -xvf python-novaclient-2.6.8.tar.gz
+#+1322599627
+python setup.
+#+1322599664
+cd ~
+#+1322599712
+cd p
+#+1322600174
+python __init__.py
+#+1322600190
+vim client.py
+#+1322600238
+cd v1_1
+#+1322600254
+client.py
+#+1322600672
+nova hel[
+#+1322600685
+nova
+#+1322600791
+cd docs
+#+1322600802
+vim index.rst
+#+1322600909
+; s
+#+1322600916
+cd python_novaclient.egg-info/
+#+1322600927
+vim requires.txt
+#+1322600992
+setup.cfg
+#+1322601005
+python setup.py
+#+1322601362
+make
+#+1322601452
+make python-novaclient-2.6.8
+#+1322601482
+chmod +X python-novaclient-2.6.8
+#+1322601491
+chmod +x python-novaclient-2.6.8
+#+1322601538
+chmod +x *.py
+#+1322601541
+chmod +X *.py
+#+1322602716
+nova help
+#+1322613461
+cd python-novaclient-2.6.8/
+#+1322613462
+cd novaclient/
+#+1322613465
+python client.py
+#+1322613482
+python shell.py
+#+1323203571
+cd dynamic_php/
+#+1323203592
+chmod 644 Turba\ Tech\ presentation.pptx
+#+1326827794
+cd Finished\ Work
+#+1326827798
+ls -a
+#+1326827804
+cd Documents
+#+1327604957
+vim NOVA.sh
+#+1327604973
+cd do
+#+1328208930
+vim TestInput.py
+#+1328210621
+ls'
+#+1328210795
+who
+#+1328210866
+ssh team15@rucs.radford.edu
+#+1328648405
+sftp
+#+1328648418
+sftp softeng@137.45.192.92
+#+1328648642
+vim test.txt
+#+1328741920
+vim babbage.txt
+#+1328747423
+exit
+#+1328818956
+cd Tests_It_1/
+#+1328819004
+vim test.py
+#+1328819012
+python test.py
+#+1328824379
+vim .vomrc
+#+1328825097
+vim .vimrc
+#+1329244506
+ssh 1 softeng12@137.45.192.92
+#+1329250027
+cd dynamic_php/Documents/
+#+1329250043
+chmod 644 Iteration_1_presentation.ppt
+#+1331664050
+vim .screenrc
+#+1331664091
+scp ./.screenrc softeng12@137.45.192.92
+#+1331664095
+scp ./.screenrc softeng12@137.45.192.92:
+#+1332284131
+ucf @ /home/softeng12 > ssh
+#+1332284133
+yes
+#+1332284156
+ssh http://help.ubuntu.com/
+#+1332284156
+Last login: Tue Mar 13 14:40:45 2012 from philip-e6410.radford.edu
+#+1332284156
+ucs @ /home/softeng12 > vim Documents/babbage.txt
+#+1332284161
+ucs @ /home/softeng12 > ssh
+#+1332648398
+logout
+#+1333044902
+grep -ilr Manager
+#+1333044904
+grep -ilr Manager .
+#+1334070186
+vim dir.t
+#+1334070239
+cd Documents/
+#+1334072842
+clear
+#+1334072858
+softeng12@137.45.192.92
+#+1334248184
+scp softeng12@137.45.192.92:reference/dir.txt .
+#+1334256833
+mkdir stack
+#+1334256835
+cd stack
+#+1334256843
+git clone git://github.com/openstack-dev/devstack.git
+#+1334256873
+cd devstack/ && ./stack.sh
+#+1334256886
+cd devstack/ && ./stack.sh FORCE=yes
+#+1334256905
+chmod +x stack.sh
+#+1334256911
+bash ./stack.sh
+#+1334256922
+bash ./stack.sh FORCE=yes
+#+1334256929
+vim stack.sh
+#+1334256970
+cd ../../
+#+1334256983
+rm -r stack/
+#+1334257039
+cd stack/
+#+1334257043
+cd devstack/
+#+1334257049
+cd ..
+#+1334641256
+vim Documents/babbage.txt
+#+1334812650
+ls
+#+1334812889
+mv new\ \ 2.txt test3.py
+#+1334812906
+sftp softeng12@137.45.192.92
+#+1334812927
+ssh softeng12@137.45.192.92

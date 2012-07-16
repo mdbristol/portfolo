@@ -1,0 +1,17 @@
+/**
+Michael Bristol
+
+Driver class
+
+*/
+
+public class GameDriver
+{
+public static void main(String argv[])
+ {
+		GameGUI g = new GameGUI();
+		
+		g.gameLoop();
+}
+}
+

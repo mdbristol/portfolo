@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=g2
+comment0.target=void\ draw(java.awt.Graphics2D)
+comment0.text=\r\n\ \ \ \ \ \ Draws\ the\ shape.\r\n\ \ \ \ \ \ @param\ g2\ the\ graphics\ context\r\n
+comment1.params=dx\ dy
+comment1.target=void\ translate(int,\ int)
+comment1.text=\r\n\ \ \ \ \ \ Moves\ the\ shape\ by\ a\ given\ amount.\r\n\ \ \ \ \ \ @param\ dx\ the\ amount\ to\ translate\ in\ x-direction\r\n\ \ \ \ \ \ @param\ dy\ the\ amount\ to\ translate\ in\ y-direction\r\n
+numComments=2
