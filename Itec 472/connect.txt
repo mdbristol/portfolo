@@ -1,7 +1,0 @@
-import novaclient
-from novaclient.v1_1 import client
-nt = client.Client('ruse1',
-			'0a2bb2bddd3337ed02dd27f042ea73a3', 
-			'ruse1-proje ct', 
-			'http://alpha.auth.api.rackspacecloud.com:5000/v2.0/'
-			)
